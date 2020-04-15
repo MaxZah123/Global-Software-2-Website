@@ -12,17 +12,18 @@ def index(request):
 def text(request):
 	context = {}
 	pagereq=str(request.path)
+	
 	if "Events" in pagereq:
-        return render(request,'Events.html',context)
-    elif "HowToMake" in pagereq:
-        return render(request,'HowToMake.html',context)
-    elif "Overview" in pagereq:
-        return render(request,'Overview.html',context)
-    else:
-        return render(request,'text.html',context)
+		return render(request,'Events.html',context)
+	elif "HowToMake" in pagereq:
+		return render(request,'HowToMake.html',context)
+	elif "Overview" in pagereq:
+		return render(request,'Overview.html',context)
+	else:
+		return render(request,'text.html',context)
 	
 
 def contact(request):
 		context = {}
 		pagereq=str(request.path)
-		return render(request,'contact.html',context)
+		return render(request,'Join.html',context)
