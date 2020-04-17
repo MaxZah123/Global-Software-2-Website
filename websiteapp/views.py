@@ -27,3 +27,6 @@ def contact(request):
 		context = {}
 		pagereq=str(request.path)
 		return render(request,'Join.html',context)
+        
+def testlang(request):
+        return HttpResponse(_('Welcome to language translation!'))

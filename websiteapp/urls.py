@@ -10,5 +10,6 @@ urlpatterns = [
     path('Events', text, name='Events'),
 	path('HowToMake', text, name='HowToMake'),
 	path('Overview', text, name='Overview'),
+    path('testlang', testlang, name='testlang'),
 ]
 
