@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Multi - Multipurpose Bootstrap theme by Bootstrapious.com</title>
+    <title>TUDublin Societies Overview</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -24,7 +24,7 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="{%static 'css/custom.css' %}">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="{%static 'img/favicon.png' %}">
+    <link rel="shortcut icon" href="{%static 'img/ARVR-TU-Dublin-logo.png' %}">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -33,19 +33,19 @@
     <!-- navbar-->
     <header class="header">
       <nav class="navbar navbar-expand-lg py-lg-0">
-        <div class="container"><a href="index" class="navbar-brand text-uppercase font-weight-bold">Societies</a>
+        <div class="container"><a href="index" class="navbar-brand text-uppercase font-weight-bold">{%trans "Societies" %}</a>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right small"><span class="text-uppercase mr-2">Menu</span><i class="fas fa-bars"></i></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto d-lg-flex align-items-lg-center">
-              <li class="nav-item"><a href="index" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Home </a>
+              <li class="nav-item"><a href="index" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Home" %}</a>
               </li>
-              <li class="nav-item"><a href="Overview" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">Overview</a>
+              <li class="nav-item"><a href="Overview" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">{%trans "Overview" %}</a>
               </li>
-			  <li class="nav-item"><a href="Events" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">Events</a>
+			  <li class="nav-item"><a href="Events" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Events" %}</a>
               </li>
-              <li class="nav-item"><a href="Join" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Join a Society</a>
+              <li class="nav-item"><a href="Join" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Join a Society" %}</a>
               </li>
-			  <li class="nav-item"><a href="HowToMake" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">Create Society</a>
+			  <li class="nav-item"><a href="HowToMake" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Create Society" %}</a>
               </li>
             </ul>
           </div>
@@ -56,76 +56,34 @@
       <div class="container py-5">
         <div aria-label="breadcrumb" class="nav">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="./">Home</a></li>
-            <li aria-current="page" class="breadcrumb-item active">Overview</li>
+            <li class="breadcrumb-item"><a href="./">{%trans "Home" %}</a></li>
+            <li aria-current="page" class="breadcrumb-item active">{%trans "Overview" %}</li>
           </ol>
         </div>
-        <h1 class="lined">Overview of Societies</h1>
-        <p class="lead my-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+        <h1 class="lined">{%trans "Overview of Societies" %}</h1>
+        <p class="lead my-4">{%trans "In the TU Dublin Societies Office we endeavour to promote and provide a huge and diverse range of student lead volunteering opportunities, societies, activities and events." %}</p>
       </div>
     </section>
-    <figure><img src="{%static 'img/portfolio-1.jpg' %}" alt="" class="w-100">
-      <figcaption class="text-muted text-center py-3 text-uppercase font-weight-bold small">Caption of the Image </figcaption>
+    <figure><img src="{%static 'img/banner2.jpg' %}" alt="" class="w-100">
+      <figcaption class="text-muted text-center py-3 text-uppercase font-weight-bold small">{%trans "TUDublin Societies" %}</figcaption>
     </figure>
     <section class="py-5">
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-8">
-            <p> <strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae,</code> ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis <a href="#">tempus lacus enim</a> ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis.</p>
-            <h2 class="my-4">Header Level 2</h2>
-            <ol>
-              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-              <li>Aliquam tincidunt mauris eu risus.</li>
-            </ol>
-            <blockquote class="blockquote my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</blockquote>
-            <h3 class="mb-4">Header Level 3</h3>
-            <p class="mb-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+		  <h1 class="my-4">{%trans "Introduction" %}</h1>
+            <p>{%trans "As you get into college life, it may surprise you to learn that it’s not all about beating the well-worn track from lecture hall to library and vice versa. TU Dublin has more than a hundred societies that range from volunteering, performing arts and campaigning/political to religious, sign language and student media, or are course-related. Run by students for students, the societies are supported by the staff of the society’s office through advice, administration and finance. TU Dublin seeks to develop the ‘community’ on campus by providing activities, events, entertainment and development opportunities." %}</p>
+            <h2 class="mb-4">{%trans "More information" %}</h2>
+            <p class="mb-4">{%trans "There is also over 35 extra annual “special events” both big and small! The last number of years has seen a huge increase in society’s membership and the number of events on and off campus. Societies are now an integral part of college life and a huge retention tool in keeping students young and mature, national and non national in college. They provide a huge range of activities for all those who want to get involved, a selection of these include:" %}</p>
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-              <li>Aliquam tincidunt mauris eu risus.</li>
+              <li>{%trans "volunteering opportunities" %}</li>
+              <li>{%trans "training and leadership opportunities" %}</li>
+			  <li>{%trans "trips away" %}</li>
+			  <li>{%trans "guest speakers" %}</li>
+			  <li>{%trans "social nights" %}</li>
+			  <li>{%trans "And much more!" %}</li>
             </ul><img src="{%static 'img/blog1.jpg' %}" alt="Example blog post alt" class="img-fluid mb-4">
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-            <div class="border-bottom my-4"></div>
-            <h5 class="mb-4">2 Comments</h5>
-            <div class="media mb-5"><img src="{%static 'img/blog-avatar.jpg' %}" alt="" width="100" class="rounded-circle">
-              <div class="media-body ml-4">
-                <h6 class="my-2">Julie Alma</h6>
-                <p class="small text-muted"> <i class="far fa-clock mr-1"></i>September 23, 2011 at 12:00 am</p>
-                <p class="text-small mb-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p><a href="#" class="text-small"><i class="fas fa-reply mr-2"></i>Reply</a>
-              </div>
-            </div>
-            <div class="media mb-5"><img src="{%static 'img/blog-avatar2.jpg' %}" alt="" width="100" class="rounded-circle">
-              <div class="media-body ml-4">
-                <h6 class="my-2">Julie Alma</h6>
-                <p class="small text-muted"> <i class="far fa-clock mr-1"></i>September 23, 2011 at 12:00 am</p>
-                <p class="text-small mb-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p><a href="#" class="text-small"><i class="fas fa-reply mr-2"></i>Reply</a>
-              </div>
-            </div>
-            <div class="border-bottom my-4"></div>
-            <h5 class="mb-4">Leave comment</h5>
-            <form id="contact-form" method="post" action="contact.php" class="contact-form form">
-              <div class="row">
-                <div class="form-group col-lg-6">
-                  <label for="name" class="font-weight-normal">Name <span class="text-primary">*</span></label>
-                  <input id="name" type="text" name="name" required class="form-control">
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-group col-lg-6">
-                  <label for="email" class="font-weight-normal">Email <span class="text-primary">*</span></label>
-                  <input id="email" type="email" name="email" required class="form-control">
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-group col-lg-12">
-                  <label for="message" class="font-weight-normal">Comment <span class="text-primary">*</span></label>
-                  <textarea id="message" rows="3" name="message" class="form-control"></textarea>
-                </div>
-                <div class="form-group col-lg-12 text-right">
-                  <button type="submit" class="btn btn-outline-primary"> <i class="far fa-comment mr-2"> </i>Post comment</button>
-                </div>
-              </div>
-            </form>
+            <p></p>
           </div>
         </div>
       </div>
@@ -134,59 +92,32 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-8 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">About Multi</h5>
-            <p class="text-muted text-small">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus magna. Cras in mi at felis aliquet congue. Vivamus magna. Cras in mi at felis aliquet congue.</p>
-            <p class="text-muted text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue.</p>
+            <h5 class="lined lined-dark mb-3">{%trans "For further information contact:" %}</h5>
+            <p class="text-muted text-small">Kaytee Behan, {%trans "Societies Development Officer" %}(Aungier St)- kaytee@socs.dit.ie</p>
+            <p class="text-muted text-small">Anita Conway, {%trans "Head of Societies" %} - anita@socs.dit.ie </p>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">Our offices</h5>
-            <h6>London</h6>
-            <p class="text-muted mb-0 text-small">Donec eleifend</p>
-            <p class="text-muted mb-0 text-small">libero at sagittis</p>
-            <p class="text-muted mb-4 text-small">mollis + 44 2556 789 8799 </p>
-            <h6>Paris</h6>
-            <p class="text-muted mb-0 text-small">Donec eleifend</p>
-            <p class="text-muted mb-0 text-small">libero at sagittis</p>
-            <p class="text-muted mb-0 text-small">mollis + 44 2556 789 8799 </p>
+            <h5 class="lined lined-dark mb-3">{%trans "Our offices" %}</h5>
+            <h6>Grangegorman</h6>
+            <p class="text-muted mb-0 text-small">Grangegorman Lower, Arran Quay,</p>
+            <p class="text-muted mb-0 text-small">Dublin 7</p>
+            <p class="text-muted mb-4 text-small">(01) 402 3000 </p>
           </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">Popular Categories</h5>
-            <ul class="list-unstyled">
-              <li><a href="#" class="footer-link text-small">Graphic design</a></li>
-              <li><a href="#" class="footer-link text-small">Web design</a></li>
-              <li><a href="#" class="footer-link text-small">Support</a></li>
-              <li><a href="#" class="footer-link text-small">Accounting</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">Let's be friends</h5>
+		  <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="lined lined-dark mb-3">{%trans "Follow us on:" %}</h5>
             <ul class="list-inline">
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-google-plus-g"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fas fa-envelope"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/TUDublinCCSocieties/" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/tudublin_socs?lang=en" class="social-link"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/explore/locations/134255093261497/ireland/dublin-ireland/dit-societies-office/" class="social-link"><i class="fab fa-instagram"></i></a></li>
             </ul>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <h5 class="lined lined-dark mb-3">News and Updates</h5>
-            <p class="text-muted mb-4 text-small">Sign up to get weekly portion of fresh jobs and news from us.
-              <form action="#">
-                <div class="input-group mb-3">
-                  <input type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" class="form-control">
-                  <div class="input-group-append">
-                    <button id="basic-addon2" type="submit" class="input-group-text"><i class="fas fa-paper-plane"></i></button>
-                  </div>
-                </div>
-              </form>
-            </p>
-          </div>
+          </div>		  
         </div>
       </div>
       <div class="bg-dark py-4">    
         <div class="container">
           <div class="row">
             <div class="col-lg-6 text-center text-lg-left mb-1 mb-lg-0">
-              <p class="small text-gray mb-0">©2019 Best company</p>
+              <p class="small text-gray mb-0">©2020 Drink21 Studios</p>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
               <p class="small text-gray mb-0">Template by <a href="https://bootstrapious.com" class="text-gray">Bootstrapious.com</a></p>
@@ -202,6 +133,6 @@
     <script src="{%static 'vendor/leaflet/leaflet.js' %}"></script>
     <script src="{%static 'js/front.js' %}"></script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
-    <link rel="stylesheet" href="{%static 'https://use.fontawesome.com/releases/v5.7.1/css/all.css' %}" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </body>
 </html>

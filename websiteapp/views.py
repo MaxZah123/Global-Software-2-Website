@@ -1,6 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.utils.translation import ugettext_lazy as _
+
+def testlang(request):
+        return HttpResponse(_('Welcome to language translation!'))
+        
 def index(request):
 # This method uses the page request to determine which page to return
     # create context

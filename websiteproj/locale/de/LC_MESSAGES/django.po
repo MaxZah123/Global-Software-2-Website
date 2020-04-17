@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-17 16:27+0100\n"
+"PO-Revision-Date: 2020-04-17 16:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: .\websiteproj\settings.py:122
+msgid "English"
+msgstr "Englisch"
+
+#: .\websiteproj\settings.py:124
+msgid "German"
+msgstr "Deutsch"
+
+#: .\websiteproj\settings.py:126
+msgid "Russian"
+msgstr "Russisch"
+
+#: .\websiteproj\templates\Overview.html:36
+msgid "Societies"
+msgstr "Vereine"
+
+#: .\websiteproj\templates\Overview.html:40
+#: .\websiteproj\templates\Overview.html:59
+msgid "Home"
+msgstr "Zuhause"
+
+#: .\websiteproj\templates\Overview.html:42
+#: .\websiteproj\templates\Overview.html:60
+msgid "Overview"
+msgstr "Übersicht"
+
+#: .\websiteproj\templates\Overview.html:44
+msgid "Events"
+msgstr "Veranstaltungen"
+
+#: .\websiteproj\templates\Overview.html:46
+msgid "Join a Society"
+msgstr "Tritt einer Gesellschaft bei"
+
+#: .\websiteproj\templates\Overview.html:48
+msgid "Create Society"
+msgstr "Gesellschaft schaffen"
+
+#: .\websiteproj\templates\Overview.html:63
+msgid "Overview of Societies"
+msgstr "Übersicht der Gesellschaften"
+
+#: .\websiteproj\templates\Overview.html:64
+msgid ""
+"In the TU Dublin Societies Office we endeavour to promote and provide a huge "
+"and diverse range of student lead volunteering opportunities, societies, "
+"activities and events."
+msgstr ""
+"Im Büro der TU Dublin Societies bemühen wir uns, ein riesiges und "
+"vielfältiges Spektrum an studentischen Freiwilligenangeboten, "
+"Gesellschaften, Aktivitäten und Veranstaltungen zu fördern und anzubieten."
+
+#: .\websiteproj\templates\Overview.html:68
+msgid "TUDublin Societies"
+msgstr "TUDublin-Gesellschaften"
+
+#: .\websiteproj\templates\Overview.html:74
+msgid "Introduction"
+msgstr "Einführung"
+
+#: .\websiteproj\templates\Overview.html:75
+msgid ""
+"As you get into college life, it may surprise you to learn that it’s not all "
+"about beating the well-worn track from lecture hall to library and vice "
+"versa. TU Dublin has more than a hundred societies that range from "
+"volunteering, performing arts and campaigning/political to religious, sign "
+"language and student media, or are course-related. Run by students for "
+"students, the societies are supported by the staff of the society’s office "
+"through advice, administration and finance. TU Dublin seeks to develop the "
+"‘community’ on campus by providing activities, events, entertainment and "
+"development opportunities."
+msgstr ""
+"Wenn Sie ins College-Leben kommen, kann es Sie überraschen zu erfahren, dass "
+"es nicht nur darum geht, die altbewährte Strecke von Hörsaal zu Bibliothek "
+"zu schlagen und umgekehrt. Die TU Dublin hat mehr als hundert "
+"Gesellschaften, die von Freiwilligenarbeit, darstellender Kunst und "
+"Kampagnen/Politik bis hin zu religiösen, Gebärdensprachen und studentischen "
+"Medien reichen oder kursbezogen sind. Die von Studenten für Studenten "
+"geleiteten Vereine werden von den Mitarbeitern des Vereinsbüros durch "
+"Beratung, Verwaltung und Finanzen unterstützt. Die TU Dublin ist bestrebt, "
+"die \"Community\" auf dem Campus durch Aktivitäten, Veranstaltungen, "
+"Unterhaltungs- und Entwicklungsmöglichkeiten zu entwickeln."
+
+#: .\websiteproj\templates\Overview.html:76
+msgid "More information"
+msgstr "Mehr Informationen"
+
+#: .\websiteproj\templates\Overview.html:77
+msgid ""
+"There is also over 35 extra annual “special events” both big and small! The "
+"last number of years has seen a huge increase in society’s membership and "
+"the number of events on and off campus. Societies are now an integral part "
+"of college life and a huge retention tool in keeping students young and "
+"mature, national and non national in college. They provide a huge range of "
+"activities for all those who want to get involved, a selection of these "
+"include:"
+msgstr ""
+"Es gibt auch über 35 zusätzliche jährliche „Sonderveranstaltungen“, sowohl "
+"große als auch kleine! In den letzten Jahren hat die Mitgliederzahl der "
+"Gesellschaft und die Anzahl der Veranstaltungen auf und außerhalb des Campus "
+"enorm zugenommen. Gesellschaften sind heute ein wesentlicher Bestandteil des "
+"Universitätslebens und ein wichtiges Instrument zur Bindung von Studenten an "
+"junge und reife, nationale und nicht nationale Studenten. Sie bieten eine "
+"große Auswahl an Aktivitäten für alle, die sich engagieren möchten. Eine "
+"Auswahl davon umfasst:"
+
+#: .\websiteproj\templates\Overview.html:79
+msgid "volunteering opportunities"
+msgstr "Freiwilligenarbeit"
+
+#: .\websiteproj\templates\Overview.html:80
+msgid "training and leadership opportunities"
+msgstr "Schulungs- und Führungsmöglichkeiten"
+
+#: .\websiteproj\templates\Overview.html:81
+msgid "trips away"
+msgstr "Ausflüge weg"
+
+#: .\websiteproj\templates\Overview.html:82
+msgid "guest speakers"
+msgstr "Gast Sprecher"
+
+#: .\websiteproj\templates\Overview.html:83
+msgid "social nights"
+msgstr "soziale Nächte"
+
+#: .\websiteproj\templates\Overview.html:84
+msgid "And much more!"
+msgstr "Und vieles mehr!"
+
+#: .\websiteproj\templates\Overview.html:95
+msgid "For further information contact:"
+msgstr "Für weitere Informationen kontaktieren Sie bitte:"
+
+#: .\websiteproj\templates\Overview.html:96
+msgid "Societies Development Officer"
+msgstr "Entwicklungsbeauftragter für Gesellschaften"
+
+#: .\websiteproj\templates\Overview.html:97
+msgid "Head of Societies"
+msgstr "Leiter der Gesellschaften"
+
+#: .\websiteproj\templates\Overview.html:100
+msgid "Our offices"
+msgstr "Unsere buros"
+
+#: .\websiteproj\templates\Overview.html:107
+msgid "Follow us on:"
+msgstr "Folge uns auf:"
