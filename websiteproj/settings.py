@@ -27,9 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-LOCALE_PATHS = (
-    os.path.join(BASE_DIR, 'websiteproj/locale'),
-)
 
 # Application definition
 
@@ -108,15 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-ie'
-
-from django.utils.translation import ugettext_lazy as _
-LANGUAGES = (
-    ('de', _('German')),
-    ('fr', _('French')),
-    ('en', _('English')),
-
-)
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
