@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-17 17:01+0100\n"
+"PO-Revision-Date: 2020-04-17 17:04+0100\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+
+#: .\websiteproj\settings.py:122
+msgid "English"
+msgstr "Английский"
+
+#: .\websiteproj\settings.py:124
+msgid "German"
+msgstr "Немецкий"
+
+#: .\websiteproj\settings.py:126
+msgid "Russian"
+msgstr "Русский"
+
+#: .\websiteproj\templates\Overview.html:36
+msgid "Societies"
+msgstr "Общества"
+
+#: .\websiteproj\templates\Overview.html:40
+#: .\websiteproj\templates\Overview.html:59
+msgid "Home"
+msgstr "Главная"
+
+#: .\websiteproj\templates\Overview.html:42
+#: .\websiteproj\templates\Overview.html:60
+msgid "Overview"
+msgstr "Обзор"
+
+#: .\websiteproj\templates\Overview.html:44
+msgid "Events"
+msgstr "События"
+
+#: .\websiteproj\templates\Overview.html:46
+msgid "Join a Society"
+msgstr "Присоединиться к обществу"
+
+#: .\websiteproj\templates\Overview.html:48
+msgid "Create Society"
+msgstr "Создать общество"
+
+#: .\websiteproj\templates\Overview.html:63
+msgid "Overview of Societies"
+msgstr "Обзор обществ"
+
+#: .\websiteproj\templates\Overview.html:64
+msgid ""
+"In the TU Dublin Societies Office we endeavour to promote and provide a huge "
+"and diverse range of student lead volunteering opportunities, societies, "
+"activities and events."
+msgstr ""
+"В Дублинском Общественном Офисе TU мы стремимся продвигать и предоставлять "
+"огромный и разнообразный спектр возможностей волонтерства, обществ, "
+"мероприятий и мероприятий для студентов."
+
+#: .\websiteproj\templates\Overview.html:68
+msgid "TUDublin Societies"
+msgstr "TUDublin обществ"
+
+#: .\websiteproj\templates\Overview.html:74
+msgid "Introduction"
+msgstr "Вступление"
+
+#: .\websiteproj\templates\Overview.html:75
+msgid ""
+"As you get into college life, it may surprise you to learn that it’s not all "
+"about beating the well-worn track from lecture hall to library and vice "
+"versa. TU Dublin has more than a hundred societies that range from "
+"volunteering, performing arts and campaigning/political to religious, sign "
+"language and student media, or are course-related. Run by students for "
+"students, the societies are supported by the staff of the society’s office "
+"through advice, administration and finance. TU Dublin seeks to develop the "
+"‘community’ on campus by providing activities, events, entertainment and "
+"development opportunities."
+msgstr ""
+"Вступая в студенческую жизнь, вы можете удивиться, узнав, что дело не только "
+"в том, чтобы прыгнуть по изношенной дорожке из лекционного зала в библиотеку "
+"и наоборот. TU Dublin насчитывает более ста обществ, которые варьируются от "
+"волонтерства, исполнительского искусства и агитации / политических до "
+"религиозных, жестовых и студенческих средств массовой информации или связаны "
+"с курсом. Обществом управляют студенты для студентов, сотрудники общества "
+"поддерживают его через консультации, администрацию и финансы. TU Dublin "
+"стремится развивать «сообщество» в кампусе, предоставляя мероприятия, "
+"мероприятия, развлечения и возможности для развития."
+
+#: .\websiteproj\templates\Overview.html:76
+msgid "More information"
+msgstr "Дополнительная информация"
+
+#: .\websiteproj\templates\Overview.html:77
+msgid ""
+"There is also over 35 extra annual “special events” both big and small! The "
+"last number of years has seen a huge increase in society’s membership and "
+"the number of events on and off campus. Societies are now an integral part "
+"of college life and a huge retention tool in keeping students young and "
+"mature, national and non national in college. They provide a huge range of "
+"activities for all those who want to get involved, a selection of these "
+"include:"
+msgstr ""
+"Существует также более 35 дополнительных ежегодных «специальных "
+"мероприятий», больших и маленьких! В последние годы наблюдалось значительное "
+"увеличение числа членов общества и количества мероприятий на территории "
+"кампуса и за его пределами. В настоящее время общества являются неотъемлемой "
+"частью жизни колледжа и огромным средством удержания студентов в молодом и "
+"зрелом возрасте, как в национальном, так и в негосударственном образовании. "
+"Они предоставляют широкий спектр мероприятий для всех, кто хочет принять "
+"участие, среди которых:"
+
+#: .\websiteproj\templates\Overview.html:79
+msgid "volunteering opportunities"
+msgstr "волонтерские возможности"
+
+#: .\websiteproj\templates\Overview.html:80
+msgid "training and leadership opportunities"
+msgstr "возможности обучения и лидерства"
+
+#: .\websiteproj\templates\Overview.html:81
+msgid "trips away"
+msgstr "поездки"
+
+#: .\websiteproj\templates\Overview.html:82
+msgid "guest speakers"
+msgstr "приглашенные докладчики"
+
+#: .\websiteproj\templates\Overview.html:83
+msgid "social nights"
+msgstr "светские вечера"
+
+#: .\websiteproj\templates\Overview.html:84
+msgid "And much more!"
+msgstr "И многое другое!"
+
+#: .\websiteproj\templates\Overview.html:95
+msgid "For further information contact:"
+msgstr "Для получения дополнительной информации обращайтесь:"
+
+#: .\websiteproj\templates\Overview.html:96
+msgid "Societies Development Officer"
+msgstr "Сотрудник по развитию общества"
+
+#: .\websiteproj\templates\Overview.html:97
+msgid "Head of Societies"
+msgstr "Глава общества"
+
+#: .\websiteproj\templates\Overview.html:100
+msgid "Our offices"
+msgstr "Наши офисы"
+
+#: .\websiteproj\templates\Overview.html:107
+msgid "Follow us on:"
+msgstr "Подпишитесь на нас в:"
