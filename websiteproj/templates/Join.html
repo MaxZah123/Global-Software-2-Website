@@ -34,8 +34,8 @@
     <!-- navbar-->
     <header class="header">
 	<div></div>
-      <nav class="navbar navbar-expand-lg py-lg-0">
-        <div class="container"><a href="index" class="navbar-brand text-uppercase font-weight-bold">Societies</a>
+            <nav class="navbar navbar-expand-lg py-lg-0">
+        <div class="container"><a href="index"> <img border = "0" alt = "dit" src="{%static 'img/banner.png' %}" width="175" height="100"></a>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right small"><span class="text-uppercase mr-2">Menu</span><i class="fas fa-bars"></i></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto d-lg-flex align-items-lg-center">
@@ -84,14 +84,29 @@
     <section class="py-5 bg-cover bg-gray">
       <div class="container py-5">
         <div aria-label="breadcrumb" class="nav">
+		<!--<div class="container"><a href="index"> <img border = "0" alt = "dit" src="{%static 'img/Soc.jpg' %}" width="595" height="300"></a>-->
+		
+		<!--<div class="container"><a href="index"><img border = "0" alt = "tud" src="{%static 'img/Join us.jpg' %}" width="595" height="300"></a>-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="./">Home</a></li>
             <li aria-current="page" class="breadcrumb-item active">Contact</li>
           </ol>
         </div>
         <h1 class="lined">Contact</h1>
-        <p class="lead my-4">Need more info on how to join a society</p>
+        <p class="lead my-4">If you have any queries on joining societies or if you need information about anything else feel free to contact us by:</p>
+		<ul>
+			<li><p class="lead my-4"><b>Filling out our contact form</p></li>
+			<li><p class="lead my-4"><b>Ringing our telephone number</p></li>
+			<li><p class="lead my-4"><b>Or by visiting us at one of our offices listed below</p></li>
+		</ul>
       </div>
+	  <div>
+		  <section id="content">
+		  <section class="Join images">
+		  <img src="{%static 'img/Join us.jpg' %}" alt="Join" />
+		  <img src="{%static 'img/Join2.png' %}" alt="Join" />
+		  <img src="{%static 'img/Join3.jpg' %}" alt="Join" />
+		  </div>
     </section>
     <section class="py-5">
       <div class="container py-5">
@@ -160,13 +175,6 @@
         </div>
       </div>
     </section>
-	 <div>
-		  <section id="content">
-		  <section class="Join images">
-		  <img src="../static/img/Join us.jpg" alt="Join" />
-		  <img src="../static/img/Join2.png" alt="Join" />
-		  <img src="../static/img/Join3.jpg" alt="Join" />
-		  </div>
     <div id="map"></div>
     <footer style="background: #eee;" class="pt-5">
       <div class="container py-5">

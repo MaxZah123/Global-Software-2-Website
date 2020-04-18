@@ -6,8 +6,15 @@
 
 .Join img {
 	display: inline-block;
-	width: 25%;
+	width: 65%;
 	margin: 3%;
 	border-radius: 5px;
 }	
+
+#container img {
+	display: inline-block;
+	width: 25%;
+	margin: 3%;
+	border-radius: 5px;
+}
 
