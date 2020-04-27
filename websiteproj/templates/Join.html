@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Multi - Multipurpose Bootstrap theme by Bootstrapious.com</title>
+    <title>TUDublin Join A Society</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -39,48 +39,21 @@
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right small"><span class="text-uppercase mr-2">Menu</span><i class="fas fa-bars"></i></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto d-lg-flex align-items-lg-center">
-              <li class="nav-item"><a href="index" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Home </a>
+              <li class="nav-item"><a href="index" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Home" %} </a>
               </li>
-              <li class="nav-item"><a href="Overview" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Overview</a>
+              <li class="nav-item"><a href="Overview" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Societies" %}</a>
               </li>
-			  <li class="nav-item"><a href="Events" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Events</a>
+			  <li class="nav-item"><a href="Events" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Events" %}</a>
               </li>
-              <li class="nav-item"><a href="Join" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">Join a Society</a>
+              <li class="nav-item"><a href="Join" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">{%trans "Join a Society" %}</a>
               </li>
-			  <li class="nav-item"><a href="HowToMake" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Create Society</a>
+			  <li class="nav-item"><a href="HowToMake" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Create Society" %}</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div id="loginModal" tabindex="-1" role="dialog" aria-lebelledby="loginModalLabel" aria-hidden="true" class="modal fade">
-      <div role="document" class="modal-dialog modal-sm">
-        <div class="modal-content rounded-0">
-          <div class="modal-header">
-            <h5 id="loginModalLabel" class="text-uppercase modal-title m-0">Customers login</h5>
-            <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true" class="small text-muted">&times;</span></button>
-          </div>
-          <div class="modal-body">
-            <form action="">
-              <div class="form-group">
-                <input type="email" placeholder="email" class="form-control">
-              </div>
-              <div class="form-group">
-                <input type="password" placeholder="password" class="form-control">
-              </div>
-              <div class="form-group text-center">
-                <button type="submit" class="btn btn-outline-primary nav-btn btn-sm"> <i class="fas fa-sign-out-alt mr-2"></i>Login </button>
-              </div>
-            </form>
-            <div class="text-center">   
-              <p class="text-muted small">Not registered yet?</p>
-              <p class="small text-muted"> <a href="#" class="font-weight-bold">Register now!</a> It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <section class="py-5 bg-cover bg-gray">
       <div class="container py-5">
         <div aria-label="breadcrumb" class="nav">
@@ -89,12 +62,12 @@
             <li aria-current="page" class="breadcrumb-item active">Contact</li>
           </ol>
         </div>
-        <h1 class="lined">Contact</h1>
-        <p class="lead my-4">If you have any queries on joining societies or if you need information about anything else feel free to contact us by:</p>
+        <h1 class="lined">{%trans "Contact" %}</h1>
+        <p class="lead my-4">{%trans "If you have any queries on joining societies or if you need information about anything else feel free to contact us by:" %}</p>
 		<ul>
-			<li><p class="lead my-4"><b>Filling out our contact form</p></li>
-			<li><p class="lead my-4"><b>Ringing our telephone number</p></li>
-			<li><p class="lead my-4"><b>Or by visiting us at one of our offices listed below</p></li>
+			<li><p class="lead my-4"><b>{%trans "Filling out our contact form" %}</p></li>
+			<li><p class="lead my-4"><b>{%trans "Ringing our telephone number" %}</p></li>
+			<li><p class="lead my-4"><b>{%trans "Or by visiting us at one of our offices listed below" %}</p></li>
 		</ul>
       </div>
 	  
@@ -105,35 +78,34 @@
 		  <img src="{%static 'img/Join2.png' %}" alt="Join" />
 		  <img src="{%static 'img/Join3.jpg' %}" alt="Join" />
 		  </div>
-		<p class="lead my-4">Here are just some of the socieities that we would recommend you joining:
+		<p class="lead my-4">{%trans "Here are just some of the societies that we would recommend you joining:" %}
 		</p>
 		<ol>
 		<li><p class="lead my-2">
-			<a href="https://www.youtube.com/watch?v=ehMEJdPLFzU"><i>The Wealth society</i></a>
+			<a href="https://www.facebook.com/photosoctudublin/"><i>{%trans "The Photo society" %}</i></a>
 		</p>
 		<ul>
-		<li>This is a society associated with only the richest of the richest.</li>
+		<li>{%trans "This is a society that adheres to all photographers and if you like taking pictures this is definitely the society for you." %}</li>
 		<br>
-		<li>In order to join a society like this your bank accounts (yes ACCOUNTS) need to be at least 9 months pregnant with all that dough.</li>
+		<li>{%trans "Joining societies is a great way of making new friends and doing the things you love so joining this or any society is a great way to settle into college life." %}</li>
 		<br>
-		<li>Unfortunately most of us are not this priveliged but check out the link above to see a video on how happy you will truly feel if you can somehow join this society.</li>
+		<li>{%trans "Check out the link above to see the Photo Soc facebook page where you can view some of their great work." %}</li>
 		</ul>
 <li>	
-<p class="lead my-4">The music society</p></li>
+<p class="lead my-4">{%trans "The musical society" %}</p></li>
 <ul>
-<li>Behold the finest producer in all of dit - Kxngbari.</li>
+<li>{%trans "This society is a great society where you can show off all of your musical talents." %}</li>
 <br>
-<li>This mandem will do his very best when making a beat for you. (unless you a trash artist)</li>
+<li>{%trans "Talents range from sick producers and artists to incredible instrument players." %}</li>
 <br>
-<li>The music society tries it's very best to display the musical talents of all its memebers.</li>
+<li>{%trans "The musical society tries it's very best to display the musical talents of all its members." %}</li>
 <br>
-<li>Join this society now if you aren't a talentless fuck and check out this clip of Kb doing Kb type things.</li>	
+<li>{%trans "Join this society now click the link below to see one of our top members Kxngbari in action." %}</li>	
 </li>
-<br>
-<video width="320" height="240" controls>
-<source src="file:///C:/Users/user/Documents/GitHub/Global-Software-2-Website/websiteproj/static/videos/Eeeriiiee.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<li><p class="lead my-2">
+			<a href="https://www.youtube.com/watch?v=umMw1FV-698"><i>{%trans "Youtube Link" %}</i></a>
+</li>
+<img src="{%static 'img/Music.jpg' %}" width="175" height="300" />
 </ul>
 <br>
 <li>
@@ -164,21 +136,21 @@
                 <div class="icon mb-4"><i class="pe-7s-map-2"></i></div>
 				</a>
 				</button>
-                <h5 class="lined mb-4">Address</h5>
+                <h5 class="lined mb-4">{%trans "Address" %}</h5>
                 <p class="text-muted mb-0 text-small">Grangegorman Lower</p>
                 <p class="text-muted mb-0 text-small"> Arran Quay</p>
                 <p class="text-muted mb-0 text-small"><strong>Dublin 7</strong></p>
               </div>
               <div class="col-lg-12 col-md-6 mb-4">
                 <div class="icon mb-4"><i class="pe-7s-phone"></i></div>
-                <h5 class="lined mb-4">Call center</h5>
-                <p class="text-muted mb-3 text-small">This number is free to call from anywhere around the globe so don't be afraid to dial thos digits!</p>
+                <h5 class="lined mb-4">{%trans "Call center" %}</h5>
+                <p class="text-muted mb-3 text-small">{%trans "This number is free to call from anywhere around the globe so don't be afraid to dial thos digits!" %}</p>
                 <p class="text-muted font-weight-bold">(01) 402 3000</p>
               </div>
               <div class="col-lg-12 col-md-6 mb-4">
                 <div class="icon mb-4"><i class="pe-7s-mail-open"></i></div>
-                <h5 class="lined mb-4">Electronic support</h5>
-                <p class="text-muted mb-3 text-small">Please feel free to write an email to us.</p>
+                <h5 class="lined mb-4">{%trans "Electronic support" %}</h5>
+                <p class="text-muted mb-3 text-small">{%trans "Please feel free to write an email to us." %}</p>
                 <ul>
                   <li><a href="#" class="font-weight-bold text-small">info@fakeemail.com</a></li>
                   <li><a href="#" class="font-weight-bold text-small">Ticketio - our ticketing support platform</a></li>
@@ -189,33 +161,33 @@
           <div class="col-lg-7 ml-auto">
             <div class="col-lg-12 col-md-6 mb-4">
               <div class="icon mb-4"><i class="pe-7s-pen"></i></div>
-              <h5 class="lined mb-4">Contact form</h5>
+              <h5 class="lined mb-4">{%trans "Contact form" %}</h5>
 			  <form action="/action_page.php" target="_blank" method="post" name="regForm" onsubmit="return( validate() );">			
               <p class="text-muted text-small">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
               <form id="contact-form" method="post" action="contact.php" class="contact-form form">
                 <div class="row">
                   <div class="form-group col-lg-6">
-                    <label for="name" class="font-weight-normal">Firstname <span class="text-primary">*</span></label>
+                    <label for="name" class="font-weight-normal">{%trans "Firstname" %}<span class="text-primary">*</span></label>
                     <input id="name" type="text" name="name" class="form-control" required>
                   </div>
                   <div class="form-group col-lg-6">
-                    <label for="surname" class="font-weight-normal">Lastname <span class="text-primary">*</span></label>
+                    <label for="surname" class="font-weight-normal">{%trans "Lastname" %}<span class="text-primary">*</span></label>
                     <input id="surname" type="text" name="surname" class="form-control" required>
                   </div>
                   <div class="form-group col-lg-6">
-                    <label for="email" class="font-weight-normal">Email <span class="text-primary">*</span></label>
+                    <label for="email" class="font-weight-normal">{%trans "Email" %} <span class="text-primary">*</span></label>
                     <input id="email" type="email" name="emailaddress" class="form-control" required>
                   </div>
                   <div class="form-group col-lg-6">
-                    <label for="subject" class="font-weight-normal">Location</label>
+                    <label for="subject" class="font-weight-normal">{%trans "Location" %}</label>
                     <input id="subject" type="text" name="subject" class="form-control">
                   </div>
                   <div class="form-group col-lg-12">
-                    <label for="message" class="font-weight-normal">Message</label>
+                    <label for="message" class="font-weight-normal">{%trans "Message" %}</label>
                     <textarea id="message" rows="5" cols="10" name="message" class="form-control"></textarea>
                   </div>
                   <div class="form-group col-lg-12">
-                    <button type="submit" class="btn btn-outline-primary"> <i class="far fa-envelope mr-2"> </i>Send message</button>
+                    <button type="submit" class="btn btn-outline-primary"> <i class="far fa-envelope mr-2"> </i>{%trans "Send message" %}</button>
                   </div>
                 </div>
               </form>
@@ -229,12 +201,12 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-8 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">About Multi</h5>
-            <p class="text-muted text-small">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus magna. Cras in mi at felis aliquet congue. Vivamus magna. Cras in mi at felis aliquet congue.</p>
-            <p class="text-muted text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue.</p>
+           <h5 class="lined lined-dark mb-3">{%trans "About Events And Societies" %}</h5>
+            <p class="text-muted text-small">{%trans "Due to the amount of correctional activities occuring in the world during the time of this text being written, many events and societies have had to be postponed/terminated." %}</p>
+            <p class="text-muted text-small">{%trans "Not all events and societies are entirely factual. Viewer discretion is advised." %}</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">Our offices</h5>
+            <h5 class="lined lined-dark mb-3">{%trans "Our offices" %}</h5>
             <h6>Dublin</h6>
             <p class="text-muted mb-0 text-small">Kevin Street</p>
             <p class="text-muted mb-0 text-small">Saint Peter's</p>
@@ -247,16 +219,16 @@
             <p class="text-muted mb-4 text-small">(01) 402 3000 </p>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">Popular Societies</h5>
+            <h5 class="lined lined-dark mb-3">{%trans "Popular Societies" %}</h5>
             <ul class="list-unstyled">
-              <li><a href="#" class="footer-link text-small">Photography</a></li>
-              <li><a href="#" class="footer-link text-small">Baking</a></li>
-              <li><a href="#" class="footer-link text-small">Banter</a></li>
-              <li><a href="#" class="footer-link text-small">African</a></li>
+              <li><a href="#" class="footer-link text-small">{%trans "Photography" %}</a></li>
+              <li><a href="#" class="footer-link text-small">{%trans "Baking" %}</a></li>
+              <li><a href="#" class="footer-link text-small">{%trans "Banter" %}</a></li>
+              <li><a href="#" class="footer-link text-small">{%trans "African" %}</a></li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">Run up our Socials!</h5>
+            <h5 class="lined lined-dark mb-3">{%trans "Run up our Socials!" %}</h5>
             <ul class="list-inline">
               <li class="list-inline-item"><a href="https://www.facebook.com/TUDublinCCSocieties/" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
               <li class="list-inline-item"><a href="https://www.linkedin.com/in/anita-conway-41a38b13/?originalSubdomain=ie" class="social-link"><i class="fab fa-linkedin"></i></a></li>
@@ -265,8 +237,8 @@
             </ul>
           </div>
           <div class="col-lg-4 col-md-6">
-            <h5 class="lined lined-dark mb-3">News and Updates</h5>
-            <p class="text-muted mb-4 text-small">Sign up to get weekly updates on events and societies.</p>
+            <h5 class="lined lined-dark mb-3">{%trans "News and Updates" %}</h5>
+            <p class="text-muted mb-4 text-small">{%trans "Sign up to get weekly updates on events and societies." %}</p>
               <form action="#">
                 <div class="input-group mb-3">
                   <input type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" class="form-control">
