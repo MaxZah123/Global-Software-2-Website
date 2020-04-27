@@ -34,38 +34,41 @@ msgstr "Deutsch"
 msgid "Russian"
 msgstr "Russisch"
 
-#: .\websiteproj\templates\HowToMake.html:80
-msgid "At least three members. Name and Student Number"
-msgstr ""
-
 #: .\websiteproj\templates\Overview.html:36
 #: .\websiteproj\templates\index.html:42 .\websiteproj\templates\index.html:97
+#: .\websiteproj\templates\HowToMake.html:36
 msgid "Societies"
 msgstr "Vereine"
 
 #: .\websiteproj\templates\Overview.html:40
 #: .\websiteproj\templates\Overview.html:59
 #: .\websiteproj\templates\index.html:40
+#: .\websiteproj\templates\HowToMake.html:40
+#: .\websiteproj\templates\HowToMake.html:59
 msgid "Home"
 msgstr "Zuhause"
 
 #: .\websiteproj\templates\Overview.html:42
 #: .\websiteproj\templates\Overview.html:60
+#: .\websiteproj\templates\HowToMake.html:42
 msgid "Overview"
 msgstr "Übersicht"
 
 #: .\websiteproj\templates\Overview.html:44
 #: .\websiteproj\templates\index.html:44 .\websiteproj\templates\index.html:69
+#: .\websiteproj\templates\HowToMake.html:44
 msgid "Events"
 msgstr "Veranstaltungen"
 
 #: .\websiteproj\templates\Overview.html:46
 #: .\websiteproj\templates\index.html:46
+#: .\websiteproj\templates\HowToMake.html:46
 msgid "Join a Society"
 msgstr "Tritt einer Gesellschaft bei"
 
 #: .\websiteproj\templates\Overview.html:48
 #: .\websiteproj\templates\index.html:48
+#: .\websiteproj\templates\HowToMake.html:48
 msgid "Create Society"
 msgstr "Gesellschaft schaffen"
 

@@ -33,19 +33,19 @@
     <!-- navbar-->
     <header class="header">
       <nav class="navbar navbar-expand-lg py-lg-0">
-        <div class="container"><a href="index" class="navbar-brand text-uppercase font-weight-bold">Societies</a>
+        <div class="container"><a href="index" class="navbar-brand text-uppercase font-weight-bold">{%trans "Societies" %}</a>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right small"><span class="text-uppercase mr-2">Menu</span><i class="fas fa-bars"></i></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto d-lg-flex align-items-lg-center">
-              <li class="nav-item"><a href="index" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Home </a>
+              <li class="nav-item"><a href="index" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Home" %}</a>
               </li>
-              <li class="nav-item"><a href="Overview" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Overview</a>
+              <li class="nav-item"><a href="Overview" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Overview" %}</a>
               </li>
-			  <li class="nav-item"><a href="Events" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Events</a>
+			  <li class="nav-item"><a href="Events" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Events" %}</a>
               </li>
-              <li class="nav-item"><a href="Join" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Join a Society</a>
+              <li class="nav-item"><a href="Join" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">{%trans "Join a Society" %}</a>
               </li>
-			  <li class="nav-item"><a href="HowToMake" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">Create Society</a>
+			  <li class="nav-item"><a href="HowToMake" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">{%trans "Create Society" %}</a>
               </li>
             </ul>
           </div>
@@ -56,7 +56,7 @@
       <div class="container py-5">
         <div aria-label="breadcrumb" class="nav">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="./">Home</a></li>
+            <li class="breadcrumb-item"><a href="./">{%trans "Home" %}</a></li>
             <li aria-current="page" class="breadcrumb-item active">Create</li>
           </ol>
         </div>
@@ -77,7 +77,7 @@
             <ol>
               <li>A Society name and idea</li>
               <li>A Supervisor</li>
-			  <li>{%trans "At least three members. Name and Student Number" %}</li>
+			  <li>At least three members. Name and Student Number</li>
 			  <li>Along with two black people. Ire and Raph can be rented</li>
 			  <li>Provide a dead body for Neko Nik</li>
 			  <li>And pay Daniel about €100</li>
@@ -187,6 +187,6 @@
     <script src="{%static 'vendor/leaflet/leaflet.js' %}"></script>
     <script src="{%static 'js/front.js' %}"></script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
-    <link rel="stylesheet" href="{%static 'https://use.fontawesome.com/releases/v5.7.1/css/all.css' %}" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </body>
 </html>
