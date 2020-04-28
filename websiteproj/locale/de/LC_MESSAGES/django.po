@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 23:03+0100\n"
-"PO-Revision-Date: 2020-04-27 23:06+0100\n"
+"POT-Creation-Date: 2020-04-28 14:55+0100\n"
+"PO-Revision-Date: 2020-04-28 14:58+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -22,32 +22,33 @@ msgstr ""
 msgid "Welcome to language translation!"
 msgstr ""
 
-#: .\websiteproj\settings.py:122
+#: .\websiteproj\settings.py:123
 msgid "English"
 msgstr "Englisch"
 
-#: .\websiteproj\settings.py:124
+#: .\websiteproj\settings.py:125
 msgid "German"
 msgstr "Deutsch"
 
-#: .\websiteproj\settings.py:126
+#: .\websiteproj\settings.py:127
 msgid "Russian"
 msgstr "Russisch"
 
 #: .\websiteproj\templates\HowToMake.html:36
 #: .\websiteproj\templates\HowToMake.html:74
 #: .\websiteproj\templates\Join.html:44
+#: .\websiteproj\templates\Join.html:47
 #: .\websiteproj\templates\Overview.html:36
-#: .\websiteproj\templates\index.html:42 .\websiteproj\templates\index.html:97
+#: .\websiteproj\templates\index.html:43 .\websiteproj\templates\index.html:98
 msgid "Societies"
 msgstr "Vereine"
 
 #: .\websiteproj\templates\HowToMake.html:40
 #: .\websiteproj\templates\HowToMake.html:59
-#: .\websiteproj\templates\Join.html:42
+#: .\websiteproj\templates\Join.html:45
 #: .\websiteproj\templates\Overview.html:40
 #: .\websiteproj\templates\Overview.html:59
-#: .\websiteproj\templates\index.html:40
+#: .\websiteproj\templates\index.html:41
 msgid "Home"
 msgstr "Zuhause"
 
@@ -58,32 +59,33 @@ msgid "Overview"
 msgstr "Übersicht"
 
 #: .\websiteproj\templates\HowToMake.html:44
-#: .\websiteproj\templates\Join.html:46
+#: .\websiteproj\templates\Join.html:49
 #: .\websiteproj\templates\Overview.html:44
-#: .\websiteproj\templates\index.html:44 .\websiteproj\templates\index.html:69
+#: .\websiteproj\templates\index.html:45 .\websiteproj\templates\index.html:70
 msgid "Events"
 msgstr "Veranstaltungen"
 
 #: .\websiteproj\templates\HowToMake.html:46
-#: .\websiteproj\templates\Join.html:48
+#: .\websiteproj\templates\Join.html:51
 #: .\websiteproj\templates\Overview.html:46
-#: .\websiteproj\templates\index.html:46
+#: .\websiteproj\templates\index.html:47
 msgid "Join a Society"
 msgstr "Tritt einer Gesellschaft bei"
 
 #: .\websiteproj\templates\HowToMake.html:48
 #: .\websiteproj\templates\HowToMake.html:63
 #: .\websiteproj\templates\Join.html:50
+#: .\websiteproj\templates\Join.html:53
 #: .\websiteproj\templates\Overview.html:48
-#: .\websiteproj\templates\index.html:48
+#: .\websiteproj\templates\index.html:49
 msgid "Create Society"
 msgstr "Gesellschaft schaffen"
 
-#: .\websiteproj\templates\Join.html:65
+#: .\websiteproj\templates\Join.html:68
 msgid "Contact"
 msgstr "Kontakt"
 
-#: .\websiteproj\templates\Join.html:66
+#: .\websiteproj\templates\Join.html:69
 msgid ""
 "If you have any queries on joining societies or if you need information "
 "about anything else feel free to contact us by:"
@@ -91,30 +93,30 @@ msgstr ""
 "Wenn Sie Fragen zum Beitritt zu Gesellschaften haben oder Informationen zu "
 "anderen Themen benötigen, wenden Sie sich bitte an:"
 
-#: .\websiteproj\templates\Join.html:68
+#: .\websiteproj\templates\Join.html:71
 msgid "Filling out our contact form"
 msgstr "Füllen Sie unser Kontaktformular aus"
 
-#: .\websiteproj\templates\Join.html:69
+#: .\websiteproj\templates\Join.html:72
 msgid "Ringing our telephone number"
 msgstr "Wir rufen unsere Telefonnummer an"
 
-#: .\websiteproj\templates\Join.html:70
+#: .\websiteproj\templates\Join.html:73
 msgid "Or by visiting us at one of our offices listed below"
 msgstr "Oder besuchen Sie uns in einem unserer unten aufgeführten Büros"
 
-#: .\websiteproj\templates\Join.html:81
+#: .\websiteproj\templates\Join.html:84
 msgid ""
 "Here are just some of the societies that we would recommend you joining:"
 msgstr ""
 "Hier sind nur einige der Gesellschaften, denen wir Ihren Beitritt empfehlen "
 "würden:"
 
-#: .\websiteproj\templates\Join.html:85
+#: .\websiteproj\templates\Join.html:87
 msgid "The Photo society"
 msgstr "Die Fotogesellschaft"
 
-#: .\websiteproj\templates\Join.html:88
+#: .\websiteproj\templates\Join.html:89
 msgid ""
 "This is a society that adheres to all photographers and if you like taking "
 "pictures this is definitely the society for you."
@@ -122,7 +124,7 @@ msgstr ""
 "Dies ist eine Gesellschaft, die sich an alle Fotografen hält, und wenn Sie "
 "gerne fotografieren, ist dies definitiv die Gesellschaft für Sie."
 
-#: .\websiteproj\templates\Join.html:90
+#: .\websiteproj\templates\Join.html:91
 msgid ""
 "Joining societies is a great way of making new friends and doing the things "
 "you love so joining this or any society is a great way to settle into "
@@ -133,19 +135,23 @@ msgstr ""
 "einer anderen Gesellschaft ist eine großartige Möglichkeit, sich im College-"
 "Leben niederzulassen."
 
-#: .\websiteproj\templates\Join.html:92
+#: .\websiteproj\templates\Join.html:93
 msgid ""
-"Check out the link above to see the Photo Soc facebook page where you can "
+"Check out the link below to see the Photo Soc facebook page where you can "
 "view some of their great work."
 msgstr ""
-"Schauen Sie sich den Link oben an, um die Facebook-Seite von Photo Soc zu "
+"Schauen Sie sich den Link unten an, um die Facebook-Seite von Photo Soc zu "
 "sehen, auf der Sie einige ihrer großartigen Arbeiten sehen können."
 
-#: .\websiteproj\templates\Join.html:95
+#: .\websiteproj\templates\Join.html:94 .\websiteproj\templates\Join.html:125
+msgid "Facebook Link"
+msgstr "Facebook Link"
+
+#: .\websiteproj\templates\Join.html:100
 msgid "The musical society"
 msgstr "Die Musikgesellschaft"
 
-#: .\websiteproj\templates\Join.html:97
+#: .\websiteproj\templates\Join.html:102
 msgid ""
 "This society is a great society where you can show off all of your musical "
 "talents."
@@ -153,7 +159,7 @@ msgstr ""
 "Diese Gesellschaft ist eine großartige Gesellschaft, in der Sie all Ihre "
 "musikalischen Talente unter Beweis stellen können."
 
-#: .\websiteproj\templates\Join.html:99
+#: .\websiteproj\templates\Join.html:104
 msgid ""
 "Talents range from sick producers and artists to incredible instrument "
 "players."
@@ -161,15 +167,15 @@ msgstr ""
 "Die Talente reichen von kranken Produzenten und Künstlern bis zu "
 "unglaublichen Instrumentenspielern."
 
-#: .\websiteproj\templates\Join.html:101
+#: .\websiteproj\templates\Join.html:106
 msgid ""
 "The musical society tries it's very best to display the musical talents of "
-"all its memebers."
+"all its members."
 msgstr ""
 "Die Musikgesellschaft versucht am besten, die musikalischen Talente aller "
 "ihrer Mitglieder zu zeigen."
 
-#: .\websiteproj\templates\Join.html:103
+#: .\websiteproj\templates\Join.html:108
 msgid ""
 "Join this society now click the link below to see one of our top members "
 "Kxngbari in action."
@@ -177,19 +183,53 @@ msgstr ""
 "Treten Sie dieser Gesellschaft jetzt bei, indem Sie auf den unten stehenden "
 "Link klicken, um eines unserer Top-Mitglieder Kxngbari in Aktion zu sehen."
 
-#: .\websiteproj\templates\Join.html:106
+#: .\websiteproj\templates\Join.html:110
 msgid "Youtube Link"
 msgstr "Youtube Link"
 
-#: .\websiteproj\templates\Join.html:139
+#: .\websiteproj\templates\Join.html:116
+msgid "The Baking society"
+msgstr "Die Backgesellschaft"
+
+#: .\websiteproj\templates\Join.html:118
+msgid ""
+"If you have a big sweet tooth or have any sort of baking skill or both then "
+"this society is most definitely for you."
+msgstr ""
+"Wenn Sie eine große Naschkatze haben oder irgendeine Art von Backfertigkeit "
+"oder beides haben, dann ist diese Gesellschaft definitiv für Sie."
+
+#: .\websiteproj\templates\Join.html:120
+msgid ""
+"This society like any other brings together different types of people but it "
+"is where cakes, buns etc are enjoyed by all."
+msgstr ""
+"Diese Gesellschaft bringt wie jede andere verschiedene Arten von Menschen "
+"zusammen, aber hier genießen alle Kuchen, Brötchen usw."
+
+#: .\websiteproj\templates\Join.html:122
+msgid ""
+"Many meetings occur throughout the year where different events that will "
+"take place are spoken about."
+msgstr ""
+"Während des ganzen Jahres finden viele Treffen statt, bei denen über "
+"verschiedene Ereignisse gesprochen wird."
+
+#: .\websiteproj\templates\Join.html:124
+msgid "Click the link below to see more on what the baking society is about."
+msgstr ""
+"Klicken Sie auf den Link unten, um mehr darüber zu erfahren, worum es in der "
+"Backgesellschaft geht."
+
+#: .\websiteproj\templates\Join.html:142
 msgid "Address"
 msgstr "Adresse"
 
-#: .\websiteproj\templates\Join.html:146
+#: .\websiteproj\templates\Join.html:149
 msgid "Call center"
 msgstr "Call center"
 
-#: .\websiteproj\templates\Join.html:147
+#: .\websiteproj\templates\Join.html:150
 msgid ""
 "This number is free to call from anywhere around the globe so don't be "
 "afraid to dial thos digits!"
@@ -197,39 +237,39 @@ msgstr ""
 "Diese Nummer kann von überall auf der Welt kostenlos angerufen werden. Haben "
 "Sie also keine Angst, diese Ziffern zu wählen!"
 
-#: .\websiteproj\templates\Join.html:152
+#: .\websiteproj\templates\Join.html:155
 msgid "Electronic support"
 msgstr "Elektronische Unterstützung"
 
-#: .\websiteproj\templates\Join.html:153
+#: .\websiteproj\templates\Join.html:156
 msgid "Please feel free to write an email to us."
 msgstr "Bitte schreiben Sie uns eine E-Mail."
 
-#: .\websiteproj\templates\Join.html:164
+#: .\websiteproj\templates\Join.html:166
 msgid "Contact form"
 msgstr "Kontakt Formular"
 
-#: .\websiteproj\templates\Join.html:170
+#: .\websiteproj\templates\Join.html:171
 msgid "Firstname"
 msgstr "Vorname"
 
-#: .\websiteproj\templates\Join.html:174
+#: .\websiteproj\templates\Join.html:175
 msgid "Lastname"
 msgstr "Nachname"
 
-#: .\websiteproj\templates\Join.html:178
+#: .\websiteproj\templates\Join.html:179
 msgid "Email"
 msgstr "Email"
 
-#: .\websiteproj\templates\Join.html:182
+#: .\websiteproj\templates\Join.html:183
 msgid "Location"
 msgstr "Ort"
 
-#: .\websiteproj\templates\Join.html:186
+#: .\websiteproj\templates\Join.html:187
 msgid "Message"
 msgstr "Botschaft"
 
-#: .\websiteproj\templates\Join.html:190
+#: .\websiteproj\templates\Join.html:191
 msgid "Send message"
 msgstr "Nachricht senden"
 
@@ -240,6 +280,11 @@ msgstr "Über Veranstaltungen und Gesellschaften"
 
 #: .\websiteproj\templates\Join.html:205 .\websiteproj\templates\index.html:119
 #: .\websiteproj\templates\HowToMake.html:123
+#: .\websiteproj\templates\Join.html:212 .\websiteproj\templates\index.html:119
+msgid "About Events And Societies"
+msgstr "Über Veranstaltungen und Gesellschaften"
+
+#: .\websiteproj\templates\Join.html:213 .\websiteproj\templates\index.html:120
 msgid ""
 "Due to the amount of correctional activities occuring in the world during "
 "the time of this text being written, many events and societies have had to "
@@ -251,6 +296,7 @@ msgstr ""
 
 #: .\websiteproj\templates\Join.html:206 .\websiteproj\templates\index.html:120
 #: .\websiteproj\templates\HowToMake.html:123
+#: .\websiteproj\templates\Join.html:214 .\websiteproj\templates\index.html:121
 msgid ""
 "Not all events and societies are entirely factual. Viewer discretion is "
 "advised."
@@ -258,42 +304,43 @@ msgstr ""
 "Nicht alle Ereignisse und Gesellschaften sind rein sachlich. Die Diskretion "
 "der Zuschauer ist empfohlen."
 
-#: .\websiteproj\templates\Join.html:209
+#: .\websiteproj\templates\Join.html:217
 #: .\websiteproj\templates\Overview.html:100
 #: .\websiteproj\templates\index.html:123
 #: .\websiteproj\templates\HowToMake.html:127
+#: .\websiteproj\templates\index.html:124
 msgid "Our offices"
 msgstr "Unsere buros"
 
-#: .\websiteproj\templates\Join.html:222
+#: .\websiteproj\templates\Join.html:230
 msgid "Popular Societies"
 msgstr "Populäre Gesellschaften"
 
-#: .\websiteproj\templates\Join.html:224
+#: .\websiteproj\templates\Join.html:232
 msgid "Photography"
 msgstr "Fotografie"
 
-#: .\websiteproj\templates\Join.html:225
+#: .\websiteproj\templates\Join.html:233
 msgid "Baking"
 msgstr "Backen"
 
-#: .\websiteproj\templates\Join.html:226
+#: .\websiteproj\templates\Join.html:234
 msgid "Banter"
 msgstr "Geplänkel"
 
-#: .\websiteproj\templates\Join.html:227
+#: .\websiteproj\templates\Join.html:235
 msgid "African"
-msgstr "afrikanisch"
+msgstr "Afrikanisch"
 
-#: .\websiteproj\templates\Join.html:231
+#: .\websiteproj\templates\Join.html:239
 msgid "Run up our Socials!"
 msgstr "Führen Sie unsere Socials!"
 
-#: .\websiteproj\templates\Join.html:240 .\websiteproj\templates\index.html:149
+#: .\websiteproj\templates\Join.html:248 .\websiteproj\templates\index.html:150
 msgid "News and Updates"
 msgstr "Nachrichten und Updates"
 
-#: .\websiteproj\templates\Join.html:241
+#: .\websiteproj\templates\Join.html:249
 msgid "Sign up to get weekly updates on events and societies."
 msgstr ""
 "Melden Sie sich an, um wöchentliche Updates zu Veranstaltungen und "
@@ -407,23 +454,23 @@ msgstr "Leiter der Gesellschaften"
 msgid "Follow us on:"
 msgstr "Folge uns auf:"
 
-#: .\websiteproj\templates\index.html:59
+#: .\websiteproj\templates\index.html:60
 msgid "Events And Societies"
 msgstr "Veranstaltungen und Gesellschaften"
 
-#: .\websiteproj\templates\index.html:60
+#: .\websiteproj\templates\index.html:61
 msgid "Looking for fun, as much as can be?"
 msgstr "Auf der Suche nach Spaß? So viel wie möglich?"
 
-#: .\websiteproj\templates\index.html:60
+#: .\websiteproj\templates\index.html:61
 msgid "Find it and more, at TUD!"
 msgstr "Finden Sie es und mehr, an der TUD!"
 
-#: .\websiteproj\templates\index.html:65
+#: .\websiteproj\templates\index.html:66
 msgid "An Event For Everyone!"
 msgstr "Ein Ereignis für alle!"
 
-#: .\websiteproj\templates\index.html:66
+#: .\websiteproj\templates\index.html:67
 msgid ""
 "Whether you're looking for a night out with your friends, a day of "
 "volunteering with your classmates,"
@@ -431,7 +478,7 @@ msgstr ""
 "Ganz gleich, ob Sie einen Abend mit Ihren Freunden oder einen Tag der "
 "Freiwilligenarbeit mit Ihren Klassenkameraden suchen,"
 
-#: .\websiteproj\templates\index.html:67
+#: .\websiteproj\templates\index.html:68
 msgid ""
 "or some bonding time with your new fellow students, there is an event for "
 "everyone! Our wide array of events, gives any, and every student"
@@ -440,17 +487,17 @@ msgstr ""
 "Veranstaltung für alle! Unser breites Angebot an Veranstaltungen gibt jedem "
 "Studenten und jeder Studentin"
 
-#: .\websiteproj\templates\index.html:68
+#: .\websiteproj\templates\index.html:69
 msgid "an opportunity to find something that suits them!"
 msgstr "eine Gelegenheit, etwas zu finden, das zu ihnen passt!"
 
-#: .\websiteproj\templates\index.html:69
+#: .\websiteproj\templates\index.html:70
 msgid "Click below to learn more about our numerous events!"
 msgstr ""
 "Klicken Sie unten, um mehr über unsere zahlreichen Veranstaltungen zu "
 "erfahren!"
 
-#: .\websiteproj\templates\index.html:78
+#: .\websiteproj\templates\index.html:79
 msgid ""
 "Here at TUD, we're very, very passionate about safe sex! We want to make "
 "sure that at every turn, our students don't experience any scratches or "
@@ -460,21 +507,21 @@ msgstr ""
 "ein! Wir wollen sicher, dass unsere Schülerinnen und Schüler auf Schritt und "
 "Tritt keine Kratzer oder burns!"
 
-#: .\websiteproj\templates\index.html:78
+#: .\websiteproj\templates\index.html:79
 msgid "This year, TUD Kevin Street is hosting the annual"
 msgstr "Dieses Jahr ist die TUD Kevin Street Gastgeber der jährlichen"
 
-#: .\websiteproj\templates\index.html:78
+#: .\websiteproj\templates\index.html:79
 msgid "event for the 3rd year running! A sure place to be for young lovebirds!"
 msgstr ""
 "Veranstaltung zum 3. Mal in Folge! Ein sicherer Ort für junge Turteltäubchen!"
 
-#: .\websiteproj\templates\index.html:78 .\websiteproj\templates\index.html:82
-#: .\websiteproj\templates\index.html:86
+#: .\websiteproj\templates\index.html:79 .\websiteproj\templates\index.html:83
+#: .\websiteproj\templates\index.html:87
 msgid "Continue reading"
 msgstr "Lesen Sie weiter"
 
-#: .\websiteproj\templates\index.html:82
+#: .\websiteproj\templates\index.html:83
 msgid ""
 "What some might describe to be the most over-gassed event in all of history, "
 "TUD is a strong advocate for Bingo Loco! It's incredibly repetitive play-"
@@ -489,11 +536,11 @@ msgstr ""
 "ungeheurer Enttäuschung und Reue! Es sei denn, Sie gewinnen! Was Sie wird es "
 "nicht."
 
-#: .\websiteproj\templates\index.html:85
+#: .\websiteproj\templates\index.html:86
 msgid "Table Quiz"
 msgstr "Tabellen-Quiz"
 
-#: .\websiteproj\templates\index.html:86
+#: .\websiteproj\templates\index.html:87
 msgid ""
 "There's no better way to connect with your new classmates than over an "
 "activity that showcases just how unintelligent they are! Here at TUD, we "
@@ -506,17 +553,17 @@ msgstr ""
 "Tischquiz! Es gibt also immer ein Gelegenheit, zu sehen, wie weit Johns "
 "Wissen über Traktoren reicht!"
 
-#: .\websiteproj\templates\index.html:93
+#: .\websiteproj\templates\index.html:94
 msgid "So Many Societies!"
 msgstr "Vereine"
 
-#: .\websiteproj\templates\index.html:94
+#: .\websiteproj\templates\index.html:95
 msgid ""
 "Badminton, Karate, Coding, Producing, Eating, Wine-tasting! And that's just"
 msgstr ""
 "Badminton, Karate, Coding, Producing, Eating, Wine-tasting! And that's just"
 
-#: .\websiteproj\templates\index.html:95
+#: .\websiteproj\templates\index.html:96
 msgid ""
 "naming a few! Here at TUD, we have over 100 societies! That's right! You "
 "read that correctly!"
@@ -524,21 +571,21 @@ msgstr ""
 "um nur einige zu nennen! Hier an der TUD haben wir über 100 Gesellschaften! "
 "Das ist richtig! Sie lesen das richtig!"
 
-#: .\websiteproj\templates\index.html:96
+#: .\websiteproj\templates\index.html:97
 msgid "ONE HUNDRED societies! So there's guaranteed to be one for you!"
 msgstr "EINE HUNDERT GESELLSCHAFTEN! Es gibt also garantiert eine für Sie!"
 
-#: .\websiteproj\templates\index.html:97
+#: .\websiteproj\templates\index.html:98
 msgid "Click below to learn more about our incredible societies!"
 msgstr ""
 "Klicken Sie unten, um mehr über unsere unglaublichen Gesellschaften zu "
 "erfahren!"
 
-#: .\websiteproj\templates\index.html:102
+#: .\websiteproj\templates\index.html:103
 msgid "Gallery"
 msgstr "Galerie"
 
-#: .\websiteproj\templates\index.html:103
+#: .\websiteproj\templates\index.html:104
 msgid ""
 "Take a look at the photos our photographer captured at some of our most "
 "popular events and societies!"
@@ -578,6 +625,31 @@ msgstr "Unsere Sozialen antreiben!"
 
 #: .\websiteproj\templates\index.html:150
 #: .\websiteproj\templates\HowToMake.html:154
+#: .\websiteproj\templates\index.html:133
+msgid "More About TUD"
+msgstr "Mehr über TUD"
+
+#: .\websiteproj\templates\index.html:135
+msgid "Explore"
+msgstr "Erforschen Sie"
+
+#: .\websiteproj\templates\index.html:136
+msgid "Open Days"
+msgstr "Tage der offenen Tür"
+
+#: .\websiteproj\templates\index.html:137
+msgid "Visit Us"
+msgstr "Besuchen Sie uns"
+
+#: .\websiteproj\templates\index.html:138
+msgid "Accounting"
+msgstr "Buchhaltung"
+
+#: .\websiteproj\templates\index.html:142
+msgid "Run Up Our Socials!"
+msgstr "Unsere Sozialen antreiben!"
+
+#: .\websiteproj\templates\index.html:151
 msgid "Sign up to get weekly updates on events and societies!"
 msgstr ""
 "Melden Sie sich an, um wöchentliche Updates über Veranstaltungen und "

@@ -1,5 +1,8 @@
+{% extends 'base2.html' %}
 {% load static %}
 {% load i18n %}
+
+{% block content %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -25,7 +28,7 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="{%static 'css/custom.css' %}">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="{%static 'img/favicon.png' %}">
+    <link rel="shortcut icon" href="{%static 'img/ARVR-TU-Dublin-logo.png' %}">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -81,16 +84,18 @@
 		<p class="lead my-4">{%trans "Here are just some of the societies that we would recommend you joining:" %}
 		</p>
 		<ol>
-		<li><p class="lead my-2">
-			<a href="https://www.facebook.com/photosoctudublin/"><i>{%trans "The Photo society" %}</i></a>
-		</p>
+		<li><p class="lead my-2">{%trans "The Photo society" %}</p></li>
 		<ul>
 		<li>{%trans "This is a society that adheres to all photographers and if you like taking pictures this is definitely the society for you." %}</li>
 		<br>
 		<li>{%trans "Joining societies is a great way of making new friends and doing the things you love so joining this or any society is a great way to settle into college life." %}</li>
 		<br>
-		<li>{%trans "Check out the link above to see the Photo Soc facebook page where you can view some of their great work." %}</li>
+		<li>{%trans "Check out the link below to see the Photo Soc facebook page where you can view some of their great work." %}</li>
+		<li><p class="lead my-2"><a href="https://www.facebook.com/photosoctudublin/" class="btn btn-outline-primary btn-sm">{%trans "Facebook Link" %} →</a>
+		</li>
 		</ul>
+		<br>
+		<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fphotosoctudublin%2Fvideos%2F1368087530022324%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 <li>	
 <p class="lead my-4">{%trans "The musical society" %}</p></li>
 <ul>
@@ -102,28 +107,26 @@
 <br>
 <li>{%trans "Join this society now click the link below to see one of our top members Kxngbari in action." %}</li>	
 </li>
-<li><p class="lead my-2">
-			<a href="https://www.youtube.com/watch?v=umMw1FV-698"><i>{%trans "Youtube Link" %}</i></a>
+<li><p class="lead my-2"><a href="https://www.youtube.com/watch?v=umMw1FV-698" class="btn btn-outline-primary btn-sm">{%trans "Youtube Link" %} →</a>
 </li>
-<img src="{%static 'img/Music.jpg' %}" width="175" height="300" />
+<img src="{%static 'img/Music.jpg' %}" alt="Music" class="img-fluid mb-4">
 </ul>
 <br>
 <li>
-<p class="lead my-4">The shank and shag society</p></li>
+<p class="lead my-4">{%trans "The Baking society" %}</p></li>
 <ul>
-<li>You looking for a way to eliminate all the frustration you have in your body and then having some quality sex.</li>
+<li>{%trans "If you have a big sweet tooth or have any sort of baking skill or both then this society is most definitely for you." %}</li>
 <br>
-<li>If that's the case then this society is just for you.</li>
+<li>{%trans "This society like any other brings together different types of people but it is where cakes, buns etc are enjoyed by all." %}</li>
 <br>
-<li>This society focuses heavily on the health and wellbeing of it's members by giving each of their members their very own sex and stress doll (SS doll).</li>
+<li>{%trans "Many meetings occur throughout the year where different events that will take place are spoken about." %}</li>
 <br>
-<li>I mean just look at our main member Neko Nik. You don't even want to know the amount of SS dolls he is shanked and shagged to be this happy.</li>
+<li>{%trans "Click the link below to see more on what the baking society is about." %}</li>
+<li><p class="lead my-2"><a href="https://www.facebook.com/TUDublinBakingSoc/" class="btn btn-outline-primary btn-sm">{%trans "Facebook Link" %} →</a>
+</li>
+</ul>
 <br>
-<li>This society has been frowned upon in the past but the wonders it has done for men, women and others is why this society is now getting the respect it so dearly deserves.</li>
-<br>
-<li>Want to have a smile as wide as this this russian mofuckas? Join before May 1st and we'll throw in some SS doll sexy gadgets!</li>
-<br>
-<img src="{%static 'img/Big Nik.jpg' %}" width="175" height="200" />
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTUDublinBakingSoc%2Fvideos%2F2001133233528805%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
     </section>
     <section class="py-5">
@@ -152,8 +155,7 @@
                 <h5 class="lined mb-4">{%trans "Electronic support" %}</h5>
                 <p class="text-muted mb-3 text-small">{%trans "Please feel free to write an email to us." %}</p>
                 <ul>
-                  <li><a href="#" class="font-weight-bold text-small">info@fakeemail.com</a></li>
-                  <li><a href="#" class="font-weight-bold text-small">Ticketio - our ticketing support platform</a></li>
+                  <li><a href="#" class="font-weight-bold text-small">directory@dit.ie </a></li>
                 </ul>
               </div>
             </div>
@@ -163,7 +165,6 @@
               <div class="icon mb-4"><i class="pe-7s-pen"></i></div>
               <h5 class="lined mb-4">{%trans "Contact form" %}</h5>
 			  <form action="/action_page.php" target="_blank" method="post" name="regForm" onsubmit="return( validate() );">			
-              <p class="text-muted text-small">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
               <form id="contact-form" method="post" action="contact.php" class="contact-form form">
                 <div class="row">
                   <div class="form-group col-lg-6">
@@ -195,6 +196,13 @@
           </div>
         </div>
       </div>
+	  <div>
+		  <section id="content">
+		  <section class="Societies">
+		  <img src="{%static 'img/Photo.jpg' %}"  alt="Join" />
+		  <img src="{%static 'img/Musical.jpg' %}" alt="Join" />
+		  <img src="{%static 'img/Baking.jpg' %}" alt="Join" />
+		  </div>
     </section>
     <div id="map"></div>
     <footer style="background: #eee;" class="pt-5">
@@ -275,3 +283,4 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </body>
 </html>
+{% endblock %}
