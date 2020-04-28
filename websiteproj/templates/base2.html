@@ -1,0 +1,30 @@
+{% load change_lang %}
+{% load i18n %}
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+    <link rel="stylesheet" href="{%static "" %}{{LANGUAGE_CODE}}/css/style.default.css" id="theme-stylesheet">
+	</head>
+	<body>
+      <div class="top-bar">
+		<!-- using template tag change_lang -->
+		{%get_language_info_list for LANGUAGES as languages %}
+		<div class="container">
+		<div class="row d-flex align-items-center">
+			<div class="col-md-6 d-md-block d-none">
+			
+			{% for language in languages %}
+				<a href="{% change_lang language.code %}">
+					{{language.name_local}}
+				</a>
+			{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+{%block content %}
+{% endblock %}
+</body>
+</html>
