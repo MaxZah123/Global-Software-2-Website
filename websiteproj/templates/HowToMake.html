@@ -57,54 +57,55 @@
         <div aria-label="breadcrumb" class="nav">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="./">{%trans "Home" %}</a></li>
-            <li aria-current="page" class="breadcrumb-item active">Create</li>
+            <li aria-current="page" class="breadcrumb-item active">{%trans "Create" %}</li>
           </ol>
         </div>
-        <h1 class="lined">Create a Society</h1>
-        <p class="lead my-4">Do you have new idea for a society and would like to make a request. Well you are in the right place.</p>
+        <h1 class="lined">{%trans "Create Society" %}</h1>
+        <p class="lead my-4">{%trans "Do you have new idea for a society and would like to make a request. Well you are in the right place." %}</p>
       </div>
     </section>
     <figure><img src="{%static 'img/DIT-Society.jpg' %}" alt="" class="w-100">
-      <figcaption class="text-muted text-center py-3 text-uppercase font-weight-bold small">Become one of them today!! </figcaption>
+      <figcaption class="text-muted text-center py-3 text-uppercase font-weight-bold small">{%trans "Become one of them today!!" %} </figcaption>
     </figure>
     <section class="py-5">
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-8">
-			<h2 class="my-4">Socities</h2>
-            <p> <strong>Here at TUD</strong> we have a number of socities for you to <a href ="Join">join</a>. <strong>However</strong>  you may feel like we are missing the one for you. So let's hear your idea. </p>
-			<h3 class="mb-4">Here's What you need</h3>
+			<h2 class="my-4">{%trans "Societies" %}</h2>
+            <p> <strong>{%trans "Here at TUD" %}</strong> 
+			{%trans "we have a number of socities for you to" %} 
+			<a href ="Join">{%trans "join" %}</a>.
+			<strong>{%trans " However" %}</strong>  
+			{%trans "you may feel like we are missing the one for you. So let's hear your idea." %}</p>
+			<h3 class="mb-4">{%trans "Here's what you need" %}</h3>
             <ol>
-              <li>A Society name and idea</li>
-              <li>A Supervisor</li>
-			  <li>At least three members. Name and Student Number</li>
-			  <li>Along with two black people. Ire and Raph can be rented</li>
-			  <li>Provide a dead body for Neko Nik</li>
-			  <li>And pay Daniel about €100</li>
+              <li>{%trans "A Society name and idea" %}</li>
+              <li>{%trans "A Supervisor" %}</li>
+			  <li>{%trans "At least five members. Name and Student Number" %}</li>
             </ol>
-			<blockquote class="blockquote my-4">"I noticed there was no society for necrophilia, so I saw my oppurtunity and used this easy set up. Never been happier in my life." - Neko Nik <img src="{%static 'img/yngnek.jpeg' %}" alt="" width="25" class="rounded-circle"></blockquote>
-			<blockquote class="blockquote my-4">"We always felt even though we are black we relate more to whites. So we wanted a society where that could be expressed and no longer be judged. This gave us that oppurtunity." - Raph and Ire <img src="{%static 'img/hedidit.jpeg' %}" alt="" width="25" class="rounded-circle"> <img src="{%static 'img/whiteire.jpeg' %}" alt="" width="45" class="rounded-circle"></blockquote>
-			<blockquote class="blockquote my-4">"Taking money from people was so boring so I needed a new way to excite me. I chose do go criminal but first I needed a crew. This allowed me to form a crew. I'm forever grateful and never bored" - Gangsta Dan <img src="{%static 'img/gangstadan.jpeg' %}" alt="" width="40" class="rounded-circle"></blockquote>
+			<blockquote class="blockquote my-4">{%trans "'I noticed there was no society for bird watchers, so I saw my oppurtunity and used this easy set up. Never been happier in my life.'" %} - John <img src="{%static 'img/person-2.jpg' %}" alt="" width="40" class="rounded-circle"></blockquote>
+			<blockquote class="blockquote my-4">{%trans "'We always felt even though we are humans we relate more to animals. So we wanted a society where that could be expressed and no longer be judged. This gave us that oppurtunity.'" %} - Sarah and Nigel <img src="{%static 'img/blog-avatar2.jpg' %}" alt="" width="40" class="rounded-circle"> <img src="{%static 'img/person-1.jpg' %}" alt="" width="40" class="rounded-circle"></blockquote>
+			<blockquote class="blockquote my-4">{%trans "'Doing the same exercises was so boring so I needed a new way to excite me. I chose do seek no way of doing things but first I needed a crew. This allowed me to form a crew. I'm forever grateful and never bored'" %} - Harry <img src="{%static 'img/person-4.jpg' %}" alt="" width="40" class="rounded-circle"></blockquote>
 			<div class="border-bottom my-4"></div>
-            <h5 class="mb-4">Application Form</h5>
+            <h5 class="mb-4">{%trans "Application Form" %}</h5>
             <form id="contact-form" method="post" action="contact.php" class="contact-form form">
               <div class="row">
                 <div class="form-group col-lg-6">
-                  <label for="name" class="font-weight-normal">Society Name <span class="text-primary">*</span></label>
+                  <label for="name" class="font-weight-normal">{%trans "Society Name" %} <span class="text-primary">*</span></label>
                   <input id="name" type="text" name="name" required class="form-control">
                 </div>
               </div>
               <div class="row">
                 <div class="form-group col-lg-6">
-                  <label for="email" class="font-weight-normal">Supervisor Name <span class="text-primary">*</span></label>
+                  <label for="email" class="font-weight-normal">{%trans "Supervisor Name" %} <span class="text-primary">*</span></label>
                   <input id="email" type="email" name="email" required class="form-control">
                 </div>
               </div>
               <div class="row">
                 <div class="form-group col-lg-12">
-                  <label for="message" class="font-weight-normal">Society Idea <span class="text-primary">*</span></label>
+                  <label for="message" class="font-weight-normal">{%trans "Society Idea" %} <span class="text-primary">*</span></label>
                   <textarea id="message" rows="3" name="message" class="form-control"></textarea>
-				  <label for="message" class="font-weight-normal">Society Members <span class="text-primary">*</span></label>
+				  <label for="message" class="font-weight-normal">{%trans "Society Members" %} <span class="text-primary">*</span></label>
                   <textarea id="message" rows="3" name="message" class="form-control"></textarea>
                 </div>
                 <div class="form-group col-lg-12 text-right">
@@ -113,7 +114,10 @@
               </div>
             </form>
 			<div class="border-bottom my-4"></div>
-			<p><strong>Alternatively</strong> you can download this <a href="{%static 'form/Application_Form.pdf' %}">form</a> fill it out and return to the Societies Office in Aungier Street.</p>
+			<p><strong>{%trans "Alternatively" %}</strong> 
+			{%trans "you can download this" %} 
+			<a href="{%static 'form/Application_Form.pdf' %}">{%trans "form" %}</a> 
+			{%trans "and fill it out then return to the Societies Office in Aungier Street." %}</p>
           </div>
         </div>
       </div>
@@ -122,12 +126,12 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-8 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">About Events And Societies</h5>
-            <p class="text-muted text-small">Due to the amount of correctional activities occuring in the world during the time of this text being written, many events and societies have had to be postponed/terminated.</p>
-            <p class="text-muted text-small">Not all events and societies are entirely factual. Viewer discretion is advised.</p>
+            <h5 class="lined lined-dark mb-3">{%trans "About Events And Societies" %}</h5>
+            <p class="text-muted text-small">{%trans "Due to the amount of correctional activities occuring in the world during the time of this text being written, many events and societies have had to be postponed/terminated." %}</p>
+            <p class="text-muted text-small">{%trans "Not all events and societies are entirely factual. Viewer discretion is advised." %}</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">Our offices</h5>
+            <h5 class="lined lined-dark mb-3">{%trans "Our offices" %}</h5>
             <h6>Dublin</h6>
             <p class="text-muted mb-0 text-small">Kevin Street</p>
             <p class="text-muted mb-0 text-small">Saint Peter's</p>
@@ -136,16 +140,16 @@
             <p class="text-muted mb-4 text-small">(01) 402 3000</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">More About TUD</h5>
+            <h5 class="lined lined-dark mb-3">{%trans "More About TUD" %}</h5>
             <ul class="list-unstyled">
-              <li><a href="https://tudublin.ie/explore/" class="footer-link text-small">Explore</a></li>
-              <li><a href="https://tudublin.ie/study/visit-us/open-days/" class="footer-link text-small">Open Days</a></li>
-              <li><a href="https://tudublin.ie/study/visit-us/" class="footer-link text-small">Visit Us</a></li>
-              <li><a href="https://tudublin.ie/explore/university-calendar/" class="footer-link text-small">Accounting</a></li>
+              <li><a href="https://tudublin.ie/explore/" class="footer-link text-small">{%trans "Explore" %}</a></li>
+              <li><a href="https://tudublin.ie/study/visit-us/open-days/" class="footer-link text-small">{%trans "Open Days" %}</a></li>
+              <li><a href="https://tudublin.ie/study/visit-us/" class="footer-link text-small">{%trans "Visit Us" %}</a></li>
+              <li><a href="https://tudublin.ie/explore/university-calendar/" class="footer-link text-small">{%trans "Accounting" %}</a></li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <h5 class="lined lined-dark mb-3">Run Up Our Socials!</h5>
+            <h5 class="lined lined-dark mb-3">{%trans "Run Up Our Socials!" %}</h5>
             <ul class="list-inline">
               <li class="list-inline-item"><a href="https://www.facebook.com/why.not.networks/photos/a.2789725731121268/2789764774450697/?type=3&theater" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
               <li class="list-inline-item"><a href="https://twitter.com/bec_white" class="social-link"><i class="fab fa-twitter"></i></a></li>
@@ -153,8 +157,8 @@
             </ul>
           </div>
           <div class="col-lg-4 col-md-6">
-            <h5 class="lined lined-dark mb-3">News and Updates</h5>
-            <p class="text-muted mb-4 text-small">Sign up to get weekly updates on events and societies!
+            <h5 class="lined lined-dark mb-3">{%trans "News and Updates" %}</h5>
+            <p class="text-muted mb-4 text-small">{%trans "Sign up to get weekly updates on events and societies!" %}
               <form action="#">
                 <div class="input-group mb-3">
                   <input type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" class="form-control">

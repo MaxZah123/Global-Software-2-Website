@@ -35,6 +35,7 @@ msgid "Russian"
 msgstr "Russisch"
 
 #: .\websiteproj\templates\HowToMake.html:36
+#: .\websiteproj\templates\HowToMake.html:74
 #: .\websiteproj\templates\Join.html:44
 #: .\websiteproj\templates\Overview.html:36
 #: .\websiteproj\templates\index.html:42 .\websiteproj\templates\index.html:97
@@ -71,6 +72,7 @@ msgid "Join a Society"
 msgstr "Tritt einer Gesellschaft bei"
 
 #: .\websiteproj\templates\HowToMake.html:48
+#: .\websiteproj\templates\HowToMake.html:63
 #: .\websiteproj\templates\Join.html:50
 #: .\websiteproj\templates\Overview.html:48
 #: .\websiteproj\templates\index.html:48
@@ -232,10 +234,12 @@ msgid "Send message"
 msgstr "Nachricht senden"
 
 #: .\websiteproj\templates\Join.html:204 .\websiteproj\templates\index.html:118
+#: .\websiteproj\templates\HowToMake.html:122
 msgid "About Events And Societies"
 msgstr "Über Veranstaltungen und Gesellschaften"
 
 #: .\websiteproj\templates\Join.html:205 .\websiteproj\templates\index.html:119
+#: .\websiteproj\templates\HowToMake.html:123
 msgid ""
 "Due to the amount of correctional activities occuring in the world during "
 "the time of this text being written, many events and societies have had to "
@@ -246,6 +250,7 @@ msgstr ""
 "Gesellschaften aufgeschoben/beendet werden."
 
 #: .\websiteproj\templates\Join.html:206 .\websiteproj\templates\index.html:120
+#: .\websiteproj\templates\HowToMake.html:123
 msgid ""
 "Not all events and societies are entirely factual. Viewer discretion is "
 "advised."
@@ -256,6 +261,7 @@ msgstr ""
 #: .\websiteproj\templates\Join.html:209
 #: .\websiteproj\templates\Overview.html:100
 #: .\websiteproj\templates\index.html:123
+#: .\websiteproj\templates\HowToMake.html:127
 msgid "Our offices"
 msgstr "Unsere buros"
 
@@ -541,31 +547,135 @@ msgstr ""
 "populäre Veranstaltungen und Gesellschaften!"
 
 #: .\websiteproj\templates\index.html:132
+#: .\websiteproj\templates\HowToMake.html:136
 msgid "More About TUD"
 msgstr "Mehr über TUD"
 
 #: .\websiteproj\templates\index.html:134
+#: .\websiteproj\templates\HowToMake.html:138
 msgid "Explore"
 msgstr "Erforschen Sie"
 
 #: .\websiteproj\templates\index.html:135
+#: .\websiteproj\templates\HowToMake.html:139
 msgid "Open Days"
 msgstr "Tage der offenen Tür"
 
 #: .\websiteproj\templates\index.html:136
+#: .\websiteproj\templates\HowToMake.html:140
 msgid "Visit Us"
 msgstr "Besuchen Sie uns"
 
 #: .\websiteproj\templates\index.html:137
+#: .\websiteproj\templates\HowToMake.html:141
 msgid "Accounting"
 msgstr "Buchhaltung"
 
 #: .\websiteproj\templates\index.html:141
+#: .\websiteproj\templates\HowToMake.html:145
 msgid "Run Up Our Socials!"
 msgstr "Unsere Sozialen antreiben!"
 
 #: .\websiteproj\templates\index.html:150
+#: .\websiteproj\templates\HowToMake.html:154
 msgid "Sign up to get weekly updates on events and societies!"
 msgstr ""
 "Melden Sie sich an, um wöchentliche Updates über Veranstaltungen und "
 "Gesellschaften zu erhalten!"
+
+#: .\websiteproj\templates\HowToMake.html:60
+msgid "Create"
+msgstr "Erschaffen"
+
+#: .\websiteproj\templates\HowToMake.html:64
+msgid "Do you have new idea for a society and would like to make a request. Well you are in the right place."
+msgstr "
+Haben Sie eine neue Idee für eine Gesellschaft und möchten eine Anfrage stellen. Nun, Sie sind am richtigen Ort."
+
+#: .\websiteproj\templates\HowToMake.html:68
+msgid "Become one of them today!!"
+msgstr "Werde heute einer von ihnen!!"
+
+#: .\websiteproj\templates\HowToMake.html:75
+msgid "Here at TUD"
+msgstr "Hier an der TUD"
+
+#: .\websiteproj\templates\HowToMake.html:76
+msgid "we have a number of socities for you to"
+msgstr "wir haben eine Reihe von Gesellschaften denen Sie"
+
+#: .\websiteproj\templates\HowToMake.html:77
+msgid "join"
+msgstr "beitreten können"
+
+#: .\websiteproj\templates\HowToMake.html:78
+msgid " However"
+msgstr " Sie haben jedoch"
+
+#: .\websiteproj\templates\HowToMake.html:79
+msgid "you may feel like we are missing the one for you. So let's hear your idea."
+msgstr "möglicherweise das Gefühl, dass wir das für Sie vermissen. Hören wir also Ihre Idee"
+
+#: .\websiteproj\templates\HowToMake.html:80
+msgid "Here's what you need"
+msgstr "Hier ist was du brauchst"
+
+#: .\websiteproj\templates\HowToMake.html:82
+msgid "A Society name and idea"
+msgstr "Ein Name und eine Idee der Gesellschaft"
+
+#: .\websiteproj\templates\HowToMake.html:83
+msgid "A Supervisor"
+msgstr "Ein Aufseher"
+
+#: .\websiteproj\templates\HowToMake.html:84
+msgid "At least five members. Name and Student Number"
+msgstr "Mindestens fünf Mitglieder. Name und Schülernummer"
+
+#: .\websiteproj\templates\HowToMake.html:86
+msgid "'I noticed there was no society for bird watchers, so I saw my oppurtunity and used this easy set up. Never been happier in my life.'"
+msgstr "'Ich bemerkte, dass es keine Gesellschaft für Vogelbeobachter gab, also sah ich meine Chance und nutzte diese einfache Einrichtung. Ich war noch nie in meinem Leben glücklicher.'"
+
+#: .\websiteproj\templates\HowToMake.html:87
+msgid "'We always felt even though we are humans we relate more to animals. So we wanted a society where that could be expressed and no longer be judged. This gave us that oppurtunity.'"
+msgstr "'Wir hatten immer das Gefühl, dass wir, obwohl wir Menschen sind, mehr mit Tieren zu tun haben. Wir wollten also eine Gesellschaft, in der dies zum Ausdruck gebracht und nicht mehr beurteilt werden kann. Dies gab uns diese Gelegenheit.'"
+
+#: .\websiteproj\templates\HowToMake.html:88
+msgid "'Doing the same exercises was so boring so I needed a new way to excite me. I chose do seek no way of doing things but first I needed a crew. This allowed me to form a crew. I'm forever grateful and never bored'"
+msgstr "'Die gleichen Übungen zu machen war so langweilig, dass ich einen neuen Weg brauchte, um mich zu erregen. Ich entschied mich dafür, keine Möglichkeit zu suchen, aber zuerst brauchte ich eine Crew. Dadurch konnte ich eine Crew bilden. Ich bin für immer dankbar und nie gelangweilt'"
+
+#: .\websiteproj\templates\HowToMake.html:90
+msgid "Application Form"
+msgstr "Anmeldeformular"
+
+#: .\websiteproj\templates\HowToMake.html:94
+msgid "Society Name"
+msgstr "Name der Gesellschaft"
+
+#: .\websiteproj\templates\HowToMake.html:100
+msgid "Supervisor Name"
+msgstr "Name des Vorgesetzten"
+
+#: .\websiteproj\templates\HowToMake.html:106
+msgid "Society Idea"
+msgstr "Gesellschaftsidee"
+
+#: .\websiteproj\templates\HowToMake.html:108
+msgid "Society Members"
+msgstr "Mitglieder der Gesellschaft"
+
+#: .\websiteproj\templates\HowToMake.html:117
+msgid "Alternatively"
+msgstr "Alternativ"
+
+#: .\websiteproj\templates\HowToMake.html:118
+msgid "you can download this"
+msgstr "können Sie diese herunterladen"
+
+#: .\websiteproj\templates\HowToMake.html:119
+msgid "form"
+msgstr "bilden"
+
+#: .\websiteproj\templates\HowToMake.html:120
+msgid "and fill it out then return to the Societies Office in Aungier Street."
+msgstr "und füllen Sie es aus und kehren Sie dann zum Gesellschaftsbüro in der Aungier Street zurück."
