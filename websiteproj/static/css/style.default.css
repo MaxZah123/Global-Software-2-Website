@@ -21,6 +21,21 @@ body {
   font-size: 0.9rem !important;
 }
 
+.boxed #all {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #8FBC8F;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.top-bar {
+  background: #555;
+  color: #E6B829;
+  font-size: 0.9rem;
+  padding: 10px 0;
+}
+
 strong {
   font-weight: 700;
 }
