@@ -4,11 +4,13 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-    <link rel="stylesheet" href="{%static "" %}{{LANGUAGE_CODE}}/css/style.default.css" id="theme-stylesheet">
-    <link rel="shortcut icon" href="{%static 'img/ARVR-TU-Dublin-logo.png' %}">	
+	<head>	
+    <link rel="stylesheet" href="{%static 'css/style.default.css' %}" id="theme-stylesheet">
+    <link rel="shortcut icon" href="{%static 'img/ARVR-TU-Dublin-logo.png' %}">
 	</head>
 	<body>
+      <div id="all">
+      <!-- Top bar-->
       <div class="top-bar">
 		<!-- using template tag change_lang -->
 		{%get_language_info_list for LANGUAGES as languages %}
@@ -24,7 +26,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
+		</div>
+		</div>
 {%block content %}
 {% endblock %}
 </body>
