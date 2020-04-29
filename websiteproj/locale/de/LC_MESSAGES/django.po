@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 21:55+0100\n"
-"PO-Revision-Date: 2020-04-28 21:54+0100\n"
+"POT-Creation-Date: 2020-04-29 01:10+0100\n"
+"PO-Revision-Date: 2020-04-29 12:37+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -34,14 +34,18 @@ msgstr "Deutsch"
 msgid "Russian"
 msgstr "Russisch"
 
+#: .\websiteproj\templates\Events.html:37
 #: .\websiteproj\templates\HowToMake.html:37
-#: .\websiteproj\templates\HowToMake.html:75
-#: .\websiteproj\templates\Join.html:47
+#: .\websiteproj\templates\Join.html:41
 #: .\websiteproj\templates\Overview.html:37
-#: .\websiteproj\templates\index.html:43 .\websiteproj\templates\index.html:98
-msgid "Societies"
-msgstr "Vereine"
+#: .\websiteproj\templates\index.html:37
+#, fuzzy
+#| msgid "Events And Societies"
+msgid "Events & Societies"
+msgstr "Veranstaltungen und Gesellschaften"
 
+#: .\websiteproj\templates\Events.html:41
+#: .\websiteproj\templates\Events.html:60
 #: .\websiteproj\templates\HowToMake.html:41
 #: .\websiteproj\templates\HowToMake.html:60
 #: .\websiteproj\templates\Join.html:45
@@ -51,19 +55,26 @@ msgstr "Vereine"
 msgid "Home"
 msgstr "Zuhause"
 
+#: .\websiteproj\templates\Events.html:43
 #: .\websiteproj\templates\HowToMake.html:43
+#: .\websiteproj\templates\HowToMake.html:75
+#: .\websiteproj\templates\Join.html:47
 #: .\websiteproj\templates\Overview.html:43
-#: .\websiteproj\templates\Overview.html:61
-msgid "Overview"
-msgstr "Übersicht"
+#: .\websiteproj\templates\index.html:43 .\websiteproj\templates\index.html:97
+msgid "Societies"
+msgstr "Vereine"
 
+#: .\websiteproj\templates\Events.html:45
+#: .\websiteproj\templates\Events.html:61
+#: .\websiteproj\templates\Events.html:64
 #: .\websiteproj\templates\HowToMake.html:45
 #: .\websiteproj\templates\Join.html:49
 #: .\websiteproj\templates\Overview.html:45
-#: .\websiteproj\templates\index.html:45 .\websiteproj\templates\index.html:70
+#: .\websiteproj\templates\index.html:45 .\websiteproj\templates\index.html:69
 msgid "Events"
 msgstr "Veranstaltungen"
 
+#: .\websiteproj\templates\Events.html:47
 #: .\websiteproj\templates\HowToMake.html:47
 #: .\websiteproj\templates\Join.html:51
 #: .\websiteproj\templates\Overview.html:47
@@ -71,6 +82,7 @@ msgstr "Veranstaltungen"
 msgid "Join a Society"
 msgstr "Tritt einer Gesellschaft bei"
 
+#: .\websiteproj\templates\Events.html:49
 #: .\websiteproj\templates\HowToMake.html:49
 #: .\websiteproj\templates\HowToMake.html:64
 #: .\websiteproj\templates\Join.html:53
@@ -78,6 +90,319 @@ msgstr "Tritt einer Gesellschaft bei"
 #: .\websiteproj\templates\index.html:49
 msgid "Create Society"
 msgstr "Gesellschaft schaffen"
+
+#: .\websiteproj\templates\Events.html:65
+msgid ""
+"Whether you're looking for a night out with your friends, a day of "
+"volunteering with your classmates, or some bonding time with your new fellow "
+"students, there is an event for everyone! Our wide array of events, gives "
+"any, and every student an opportunity to find something that suits them!"
+msgstr ""
+"oder eine Zeit der Begegnung mit Ihren neuen Kommilitonen, gibt es eine "
+"Veranstaltung für alle! Unser breites Angebot an Veranstaltungen gibt jedem "
+"Studenten und jeder Studentin!"
+
+#: .\websiteproj\templates\Events.html:71
+#: .\websiteproj\templates\Events.html:107
+msgid ""
+"Here at TUD, we're very, very passionate about safe sex! We want to make "
+"sure that at every turn, our students don't experience any scratches or "
+"burns! This year, TUD Kevin Street is hosting the annual Shag Sexual "
+"Awareness event for the 3rd year running! A sure place to be for young "
+"lovebirds!"
+msgstr ""
+"Hier bei TUD sind wir sehr, sehr leidenschaftlich für sicheren Sex! Wir "
+"wollen sicherstellen, dass unsere Schüler an jeder Ecke keine Kratzer oder "
+"Verbrennungen erleben! In diesem Jahr veranstaltet TUD Kevin Street zum "
+"dritten Mal in Folge das jährliche Shag Sexual Awareness Event! Ein sicherer "
+"Ort für junge Liebesvögel!"
+
+#: .\websiteproj\templates\Events.html:71
+#: .\websiteproj\templates\Events.html:75
+#: .\websiteproj\templates\Events.html:87
+#: .\websiteproj\templates\Events.html:91
+#: .\websiteproj\templates\Events.html:95
+msgid "Details →"
+msgstr "Details →"
+
+#: .\websiteproj\templates\Events.html:75
+#: .\websiteproj\templates\Events.html:118
+#: .\websiteproj\templates\index.html:82
+msgid ""
+"What some might describe to be the most over-gassed event in all of history, "
+"TUD is a strong advocate for Bingo Loco! It's incredibly repetitive play-"
+"style, awful song choices, and miserable outcomes will leave any event-goer "
+"in a mood of immense disapointment and regret! Unless you win! Which you "
+"won't."
+msgstr ""
+"Was einige als das am stärksten übergaste Ereignis in der Geschichte "
+"bezeichnen könnten, TUD ist ein starker Fürsprecher für Bingo Loco! Es ist "
+"ein unglaublich sich wiederholendes Spiel-Stil, schreckliche Songauswahl und "
+"miserable Ergebnisse werden jeden Veranstaltungsbesucher in einer Stimmung "
+"ungeheurer Enttäuschung und Reue! Es sei denn, Sie gewinnen! Was Sie wird es "
+"nicht."
+
+#: .\websiteproj\templates\Events.html:79
+#: .\websiteproj\templates\Events.html:129
+msgid ""
+"There's no better way to connect with your new classmates than over an "
+"activity that showcases just how unintelligent they are! Here at TUD, we "
+"host a table quiz every month, at every campus! So there's always an "
+"opportunity to see just how far Angel's knowledge of curry expands!"
+msgstr ""
+"Es gibt keinen besseren Weg, sich mit deinen neuen Klassenkameraden zu "
+"verbinden, als über eine Aktivität, die zeigt, wie unintelligent sie sind! "
+"Hier bei TUD veranstalten wir jeden Monat ein Tischquiz auf jedem Campus! Es "
+"gibt also immer die Möglichkeit zu sehen, wie weit Angels Wissen über Curry "
+"reicht!"
+
+#: .\websiteproj\templates\Events.html:87
+#: .\websiteproj\templates\Events.html:140
+msgid ""
+"The 80s theme'd disco is here. This exclusive event is only held once every "
+"two years. This year marks the 10th time the event is being hosted. It is "
+"truely a great experience. Wouldn't you be interested in knowing how hard "
+"your parents partied when they were as young and energetic as yourselves?"
+msgstr ""
+"Die Disco zum Thema der 80er ist da. Diese exklusive Veranstaltung findet "
+"nur alle zwei Jahre statt. In diesem Jahr findet die Veranstaltung zum 10. "
+"Mal statt. Es ist wirklich eine großartige Erfahrung. Würdest du nicht gerne "
+"wissen, wie hart deine Eltern gefeiert haben, als sie so jung und energisch "
+"waren wie du selbst?"
+
+#: .\websiteproj\templates\Events.html:91
+#: .\websiteproj\templates\Events.html:151
+msgid ""
+"This years Summer Ball is being brought to you by the collaboration between "
+"the Photography & Events society! The ball will is exclusively being held "
+"for the most exquisite people on Ireland (that attend college). The ball "
+"will be held in  the beautiful ball room in Aungier Street. Are you ready "
+"for such a prestige evening?"
+msgstr ""
+"Der diesjährige Summer Ball wird Ihnen durch die Zusammenarbeit zwischen der "
+"Photography & Events Society präsentiert! Der Ball wird ausschließlich für "
+"die exquisitesten Leute Irlands (die das College besuchen) abgehalten. Der "
+"Ball wird im schönen Ballsaal in der Aungier Street abgehalten. Bist du "
+"bereit für einen so prestigeträchtigen Abend?"
+
+#: .\websiteproj\templates\Events.html:95
+#: .\websiteproj\templates\Events.html:161
+msgid ""
+"Have you ever wanted to invest but never knew how to get into it? Well this "
+"event that is being hosted by the Investors society is perfect for you. The "
+"event is being hosted as the investors society sees potential in the TUD "
+"college students in becoming successful investors in the future."
+msgstr ""
+"Wollten Sie schon immer einmal investieren, wussten aber nie, wie Sie darauf "
+"zugreifen sollten? Nun, diese Veranstaltung, die von der Investors Society "
+"veranstaltet wird, ist perfekt für Sie. Die Veranstaltung wird veranstaltet, "
+"da die Investorengesellschaft das Potenzial der TUD-Studenten sieht, in "
+"Zukunft erfolgreiche Investoren zu werden."
+
+#: .\websiteproj\templates\Events.html:109
+#: .\websiteproj\templates\Events.html:120
+#: .\websiteproj\templates\Events.html:131
+#: .\websiteproj\templates\Events.html:142
+#: .\websiteproj\templates\Events.html:152
+msgid "Hosted By:"
+msgstr "Gastgeber:"
+
+#: .\websiteproj\templates\Events.html:110
+#: .\websiteproj\templates\Events.html:121
+#: .\websiteproj\templates\Events.html:132
+#: .\websiteproj\templates\Events.html:143
+#: .\websiteproj\templates\Events.html:153
+msgid "Contact:"
+msgstr "Kontakt:"
+
+#: .\websiteproj\templates\Events.html:112
+msgid ""
+"Anybody & Everybody is welcome to this event. No sign-ups. No Fees. No "
+"Registration. The Health Society is here to help those that are well versed "
+"in the topic of sex and for those who may not be well acquainted with it. "
+"There will be important information to learn for everyone. This is an event "
+"that we highly recommend everyone attends. Refreshments will be given."
+msgstr ""
+"Jeder und jede ist zu dieser Veranstaltung willkommen. Keine Anmeldungen. "
+"Keine Gebühren. Keine Registration. Die Health Society ist hier, um "
+"denjenigen zu helfen, die sich mit dem Thema Sex gut auskennen, und denen, "
+"die mit dem Thema Sex möglicherweise nicht gut vertraut sind. Es wird "
+"wichtige Informationen geben, die jeder lernen kann. Dies ist eine "
+"Veranstaltung, die wir jedem empfehlen können. Erfrischungen werden gegeben."
+
+#: .\websiteproj\templates\Events.html:123
+msgid ""
+"The one and only Games Society has created the maddest craziest and most "
+"importantly the worst event you would ever attend. We invite everyone to "
+"come to this event and have a grand old misserable time here. There are "
+"prizes given out to those who manage to stay awake through this horrid "
+"event. Due to the lack of people, we ask for you to bring your parents, "
+"grandparents, kids, neighbours, basically everyone you know. We have hosted "
+"multiple of these events and we know we can make events that are memorable "
+"for everyone that attends!"
+msgstr ""
+"Die einzige Games Society hat das verrückteste und vor allem schlechteste "
+"Event geschaffen, an dem Du jemals teilnehmen würdest. Wir laden alle ein, "
+"zu dieser Veranstaltung zu kommen und hier eine großartige alte Zeit zu "
+"haben. Es gibt Preise, die an diejenigen vergeben werden, die es schaffen, "
+"durch dieses schreckliche Ereignis wach zu bleiben. Aufgrund des Mangels an "
+"Menschen bitten wir Sie, Ihre Eltern, Großeltern, Kinder, Nachbarn, im "
+"Grunde alle, die Sie kennen, mitzubringen. Wir haben mehrere dieser "
+"Veranstaltungen veranstaltet und wir wissen, dass wir Veranstaltungen, die "
+"für alle Teilnehmer unvergesslich sind, unvergesslich machen können!"
+
+#: .\websiteproj\templates\Events.html:134
+msgid ""
+"The Quiz event that is comingon the 22nd June is going to be a blast! Forget "
+"about the Games Society. They don't understand real disapointment, and "
+"luckily for you, we do. There are literally no positives to this quiz. As "
+"previously stated we will show you how smart your mates are. The quiz "
+"consists of a few rounds with prizes at the end, we think. It will be nice "
+"of you to attend anyway. See you there!"
+msgstr ""
+"Das Quiz-Event, das am 22. Juni ansteht, wird eine Explosion! Vergessen Sie "
+"die Spielegesellschaft. Sie verstehen keine wirkliche Verdeinlung, und zum "
+"Glück für sie tun wir es. Es gibt buchstäblich keine positiven Aspekte "
+"dieses Quiz. Wie bereits erwähnt, zeigen wir Ihnen, wie intelligent Ihre "
+"Kumpels sind. Das Quiz besteht aus ein paar Runden mit Preisen am Ende, "
+"denken wir. Es wird schön von Ihnen sein, trotzdem dabei zu sein. Wir sehen "
+"uns dort!"
+
+#: .\websiteproj\templates\Events.html:139
+msgid "Kevin Street Campus"
+msgstr "Kevin Street Campus"
+
+#: .\websiteproj\templates\Events.html:145
+msgid ""
+"Everybody inside and outside of TUD is welcome to this great event! There "
+"are no hidden fees here, it is totally free to enter. All you need to do is "
+"sign-up using the eventbright link. To be allowed in you must be wearing 80s "
+"styled clothing. There will be a winner for the best outfit and the best "
+"dressed couple at this event! Good luck! If there is any other information "
+"that you may need, please feel free to contact us at our email or any of our "
+"socials!"
+msgstr ""
+"Jeder innerhalb und außerhalb von TUD ist zu dieser großartigen "
+"Veranstaltung willkommen! Hier gibt es keine versteckten Gebühren, der "
+"Eintritt ist völlig kostenlos. Sie müssen sich lediglich über den "
+"Eventbright-Link anmelden. Um Zutritt zu erhalten, müssen Sie Kleidung im "
+"80er-Jahre-Stil tragen. Bei diesem Event gibt es einen Gewinner für das "
+"beste Outfit und das am besten gekleidete Paar! Viel Glück! Wenn Sie weitere "
+"Informationen benötigen, können Sie uns gerne per E-Mail oder in einem "
+"unserer sozialen Netzwerke kontaktieren!"
+
+#: .\websiteproj\templates\Events.html:155
+msgid ""
+"There is a fee of $50 to get into this event. The fee covers up to 2 people "
+"so we hope it wont put the biggest dent into the wallets of the college "
+"students! At the event a 3 course meal will be provided. There will be a "
+"bar, but the drinks are not going to be free. If there is any other "
+"information that you seek, please feel free to contact us at our email or "
+"any of our socials!"
+msgstr ""
+"Für die Teilnahme an dieser Veranstaltung wird eine Gebühr von 50 US-Dollar "
+"erhoben. Die Gebühr deckt bis zu 2 Personen ab, also hoffen wir, dass sie "
+"nicht die größte Beule in den Geldbörsen der College-Studenten verursacht! "
+"Bei der Veranstaltung wird ein 3-Gänge-Menü angeboten. Es wird eine Bar "
+"geben, aber die Getränke werden nicht kostenlos sein. Wenn Sie weitere "
+"Informationen suchen, können Sie uns gerne per E-Mail oder in einem unserer "
+"sozialen Netzwerke kontaktieren!"
+
+#: .\websiteproj\templates\Events.html:165
+msgid ""
+"There is no fee and no sign-up to be able to attend the event. Just be a "
+"part of TUD. We can't be sharing our secrets. We will provide information on "
+"how to join the investing game from as little as 50 euro, how to stay in the "
+"game, and most importantly how to succeed. There will be pizza at the event! "
+"If there is any other information that you seek, please feel free to contact "
+"us at our email or any of our socials!"
+msgstr ""
+"Es gibt keine Gebühr und keine Anmeldung, um an der Veranstaltung teilnehmen "
+"zu können. Sei einfach ein Teil von TUD. Wir können unsere Geheimnisse nicht "
+"teilen. Wir werden Informationen darüber bereitstellen, wie Sie bereits ab "
+"50 Euro am Investitionsspiel teilnehmen, wie Sie im Spiel bleiben und vor "
+"allem wie Sie erfolgreich sein können. Bei der Veranstaltung wird es Pizza "
+"geben! Wenn Sie weitere Informationen suchen, können Sie uns gerne per E-"
+"Mail oder in einem unserer sozialen Netzwerke kontaktieren!"
+
+#: .\websiteproj\templates\Events.html:174
+#: .\websiteproj\templates\HowToMake.html:130
+#: .\websiteproj\templates\Join.html:212 .\websiteproj\templates\index.html:118
+msgid "About Events And Societies"
+msgstr "Über Veranstaltungen und Gesellschaften"
+
+#: .\websiteproj\templates\Events.html:175
+#: .\websiteproj\templates\HowToMake.html:131
+#: .\websiteproj\templates\Join.html:213 .\websiteproj\templates\index.html:119
+msgid ""
+"Due to the amount of correctional activities occuring in the world during "
+"the time of this text being written, many events and societies have had to "
+"be postponed/terminated."
+msgstr ""
+"Aufgrund der Menge an Strafvollzugsaktivitäten, die in der Welt während Zum "
+"Zeitpunkt der Abfassung dieses Textes mussten viele Ereignisse und "
+"Gesellschaften aufgeschoben/beendet werden."
+
+#: .\websiteproj\templates\Events.html:176
+#: .\websiteproj\templates\HowToMake.html:132
+#: .\websiteproj\templates\Join.html:214 .\websiteproj\templates\index.html:120
+msgid ""
+"Not all events and societies are entirely factual. Viewer discretion is "
+"advised."
+msgstr ""
+"Nicht alle Ereignisse und Gesellschaften sind rein sachlich. Die Diskretion "
+"der Zuschauer ist empfohlen."
+
+#: .\websiteproj\templates\Events.html:179
+#: .\websiteproj\templates\HowToMake.html:135
+#: .\websiteproj\templates\Join.html:217
+#: .\websiteproj\templates\Overview.html:101
+#: .\websiteproj\templates\index.html:123
+msgid "Our offices"
+msgstr "Unsere buros"
+
+#: .\websiteproj\templates\Events.html:192
+#: .\websiteproj\templates\Join.html:230
+msgid "Popular Societies"
+msgstr "Populäre Gesellschaften"
+
+#: .\websiteproj\templates\Events.html:194
+#: .\websiteproj\templates\Join.html:232
+msgid "Photography"
+msgstr "Fotografie"
+
+#: .\websiteproj\templates\Events.html:195
+#: .\websiteproj\templates\Join.html:233
+msgid "Baking"
+msgstr "Backen"
+
+#: .\websiteproj\templates\Events.html:196
+#: .\websiteproj\templates\Join.html:234
+msgid "Banter"
+msgstr "Geplänkel"
+
+#: .\websiteproj\templates\Events.html:197
+#: .\websiteproj\templates\Join.html:235
+msgid "African"
+msgstr "Afrikanisch"
+
+#: .\websiteproj\templates\Events.html:201
+#: .\websiteproj\templates\Join.html:239
+msgid "Run up our Socials!"
+msgstr "Führen Sie unsere Socials!"
+
+#: .\websiteproj\templates\Events.html:210
+#: .\websiteproj\templates\HowToMake.html:161
+#: .\websiteproj\templates\Join.html:248 .\websiteproj\templates\index.html:149
+msgid "News and Updates"
+msgstr "Nachrichten und Updates"
+
+#: .\websiteproj\templates\Events.html:211
+#: .\websiteproj\templates\Join.html:249
+msgid "Sign up to get weekly updates on events and societies."
+msgstr ""
+"Melden Sie sich an, um wöchentliche Updates zu Veranstaltungen und "
+"Gesellschaften zu erhalten."
 
 #: .\websiteproj\templates\HowToMake.html:61
 msgid "Create"
@@ -203,75 +528,38 @@ msgstr ""
 "und füllen Sie es aus und kehren Sie dann zum Gesellschaftsbüro in der "
 "Aungier Street zurück."
 
-#: .\websiteproj\templates\HowToMake.html:130
-#: .\websiteproj\templates\Join.html:212 .\websiteproj\templates\index.html:119
-msgid "About Events And Societies"
-msgstr "Über Veranstaltungen und Gesellschaften"
-
-#: .\websiteproj\templates\HowToMake.html:131
-#: .\websiteproj\templates\Join.html:213 .\websiteproj\templates\index.html:120
-msgid ""
-"Due to the amount of correctional activities occuring in the world during "
-"the time of this text being written, many events and societies have had to "
-"be postponed/terminated."
-msgstr ""
-"Aufgrund der Menge an Strafvollzugsaktivitäten, die in der Welt während Zum "
-"Zeitpunkt der Abfassung dieses Textes mussten viele Ereignisse und "
-"Gesellschaften aufgeschoben/beendet werden."
-
-#: .\websiteproj\templates\HowToMake.html:132
-#: .\websiteproj\templates\Join.html:214 .\websiteproj\templates\index.html:121
-msgid ""
-"Not all events and societies are entirely factual. Viewer discretion is "
-"advised."
-msgstr ""
-"Nicht alle Ereignisse und Gesellschaften sind rein sachlich. Die Diskretion "
-"der Zuschauer ist empfohlen."
-
-#: .\websiteproj\templates\HowToMake.html:135
-#: .\websiteproj\templates\Join.html:217
-#: .\websiteproj\templates\Overview.html:101
-#: .\websiteproj\templates\index.html:124
-msgid "Our offices"
-msgstr "Unsere buros"
-
 #: .\websiteproj\templates\HowToMake.html:144
-#: .\websiteproj\templates\index.html:133
+#: .\websiteproj\templates\index.html:132
 msgid "More About TUD"
 msgstr "Mehr Informationen"
 
 #: .\websiteproj\templates\HowToMake.html:146
-#: .\websiteproj\templates\index.html:135
+#: .\websiteproj\templates\index.html:134
 msgid "Explore"
 msgstr "Erforschen Sie"
 
 #: .\websiteproj\templates\HowToMake.html:147
-#: .\websiteproj\templates\index.html:136
+#: .\websiteproj\templates\index.html:135
 msgid "Open Days"
 msgstr "Tage der offenen Tür"
 
 #: .\websiteproj\templates\HowToMake.html:148
-#: .\websiteproj\templates\index.html:137
+#: .\websiteproj\templates\index.html:136
 msgid "Visit Us"
 msgstr "Besuchen Sie uns"
 
 #: .\websiteproj\templates\HowToMake.html:149
-#: .\websiteproj\templates\index.html:138
+#: .\websiteproj\templates\index.html:137
 msgid "Accounting"
 msgstr "Buchhaltung"
 
 #: .\websiteproj\templates\HowToMake.html:153
-#: .\websiteproj\templates\index.html:142
+#: .\websiteproj\templates\index.html:141
 msgid "Run Up Our Socials!"
 msgstr "Starten Sie unsere Socials!"
 
-#: .\websiteproj\templates\HowToMake.html:161
-#: .\websiteproj\templates\Join.html:248 .\websiteproj\templates\index.html:150
-msgid "News and Updates"
-msgstr "Nachrichten und Updates"
-
 #: .\websiteproj\templates\HowToMake.html:162
-#: .\websiteproj\templates\index.html:151
+#: .\websiteproj\templates\index.html:150
 msgid "Sign up to get weekly updates on events and societies!"
 msgstr ""
 "Melden Sie sich an, um wöchentliche Updates über Veranstaltungen und "
@@ -469,35 +757,9 @@ msgstr "Botschaft"
 msgid "Send message"
 msgstr "Nachricht senden"
 
-#: .\websiteproj\templates\Join.html:230
-msgid "Popular Societies"
-msgstr "Populäre Gesellschaften"
-
-#: .\websiteproj\templates\Join.html:232
-msgid "Photography"
-msgstr "Fotografie"
-
-#: .\websiteproj\templates\Join.html:233
-msgid "Baking"
-msgstr "Backen"
-
-#: .\websiteproj\templates\Join.html:234
-msgid "Banter"
-msgstr "Geplänkel"
-
-#: .\websiteproj\templates\Join.html:235
-msgid "African"
-msgstr "Afrikanisch"
-
-#: .\websiteproj\templates\Join.html:239
-msgid "Run up our Socials!"
-msgstr "Führen Sie unsere Socials!"
-
-#: .\websiteproj\templates\Join.html:249
-msgid "Sign up to get weekly updates on events and societies."
-msgstr ""
-"Melden Sie sich an, um wöchentliche Updates zu Veranstaltungen und "
-"Gesellschaften zu erhalten."
+#: .\websiteproj\templates\Overview.html:61
+msgid "Overview"
+msgstr "Übersicht"
 
 #: .\websiteproj\templates\Overview.html:64
 msgid "Overview of Societies"
@@ -607,23 +869,23 @@ msgstr "Leiter der Gesellschaften"
 msgid "Follow us on:"
 msgstr "Folge uns auf:"
 
-#: .\websiteproj\templates\index.html:60
+#: .\websiteproj\templates\index.html:59
 msgid "Events And Societies"
 msgstr "Veranstaltungen und Gesellschaften"
 
-#: .\websiteproj\templates\index.html:61
+#: .\websiteproj\templates\index.html:60
 msgid "Looking for fun, as much as can be?"
 msgstr "Auf der Suche nach Spaß? So viel wie möglich?"
 
-#: .\websiteproj\templates\index.html:61
+#: .\websiteproj\templates\index.html:60
 msgid "Find it and more, at TUD!"
 msgstr "Finden Sie es und mehr, an der TUD!"
 
-#: .\websiteproj\templates\index.html:66
+#: .\websiteproj\templates\index.html:65
 msgid "An Event For Everyone!"
 msgstr "Ein Ereignis für alle!"
 
-#: .\websiteproj\templates\index.html:67
+#: .\websiteproj\templates\index.html:66
 msgid ""
 "Whether you're looking for a night out with your friends, a day of "
 "volunteering with your classmates,"
@@ -631,7 +893,7 @@ msgstr ""
 "Ganz gleich, ob Sie einen Abend mit Ihren Freunden oder einen Tag der "
 "Freiwilligenarbeit mit Ihren Klassenkameraden suchen,"
 
-#: .\websiteproj\templates\index.html:68
+#: .\websiteproj\templates\index.html:67
 msgid ""
 "or some bonding time with your new fellow students, there is an event for "
 "everyone! Our wide array of events, gives any, and every student"
@@ -640,17 +902,17 @@ msgstr ""
 "Veranstaltung für alle! Unser breites Angebot an Veranstaltungen gibt jedem "
 "Studenten und jeder Studentin"
 
-#: .\websiteproj\templates\index.html:69
+#: .\websiteproj\templates\index.html:68
 msgid "an opportunity to find something that suits them!"
 msgstr "eine Gelegenheit, etwas zu finden, das zu ihnen passt!"
 
-#: .\websiteproj\templates\index.html:70
+#: .\websiteproj\templates\index.html:69
 msgid "Click below to learn more about our numerous events!"
 msgstr ""
 "Klicken Sie unten, um mehr über unsere zahlreichen Veranstaltungen zu "
 "erfahren!"
 
-#: .\websiteproj\templates\index.html:79
+#: .\websiteproj\templates\index.html:78
 msgid ""
 "Here at TUD, we're very, very passionate about safe sex! We want to make "
 "sure that at every turn, our students don't experience any scratches or "
@@ -660,40 +922,25 @@ msgstr ""
 "ein! Wir wollen sicher, dass unsere Schülerinnen und Schüler auf Schritt und "
 "Tritt keine Kratzer oder burns!"
 
-#: .\websiteproj\templates\index.html:79
+#: .\websiteproj\templates\index.html:78
 msgid "This year, TUD Kevin Street is hosting the annual"
 msgstr "Dieses Jahr ist die TUD Kevin Street Gastgeber der jährlichen"
 
-#: .\websiteproj\templates\index.html:79
+#: .\websiteproj\templates\index.html:78
 msgid "event for the 3rd year running! A sure place to be for young lovebirds!"
 msgstr ""
 "Veranstaltung zum 3. Mal in Folge! Ein sicherer Ort für junge Turteltäubchen!"
 
-#: .\websiteproj\templates\index.html:79 .\websiteproj\templates\index.html:83
-#: .\websiteproj\templates\index.html:87
+#: .\websiteproj\templates\index.html:78 .\websiteproj\templates\index.html:82
+#: .\websiteproj\templates\index.html:86
 msgid "Continue reading"
 msgstr "Lesen Sie weiter"
 
-#: .\websiteproj\templates\index.html:83
-msgid ""
-"What some might describe to be the most over-gassed event in all of history, "
-"TUD is a strong advocate for Bingo Loco! It's incredibly repetitive play-"
-"style, awful song choices, and miserable outcomes will leave any event-goer "
-"in a mood of immense disapointment and regret! Unless you win! Which you "
-"won't."
-msgstr ""
-"Was einige als das am stärksten übergaste Ereignis in der Geschichte "
-"bezeichnen könnten, TUD ist ein starker Fürsprecher für Bingo Loco! Es ist "
-"ein unglaublich sich wiederholendes Spiel-Stil, schreckliche Songauswahl und "
-"miserable Ergebnisse werden jeden Veranstaltungsbesucher in einer Stimmung "
-"ungeheurer Enttäuschung und Reue! Es sei denn, Sie gewinnen! Was Sie wird es "
-"nicht."
-
-#: .\websiteproj\templates\index.html:86
+#: .\websiteproj\templates\index.html:85
 msgid "Table Quiz"
 msgstr "Tabellen-Quiz"
 
-#: .\websiteproj\templates\index.html:87
+#: .\websiteproj\templates\index.html:86
 msgid ""
 "There's no better way to connect with your new classmates than over an "
 "activity that showcases just how unintelligent they are! Here at TUD, we "
@@ -706,17 +953,17 @@ msgstr ""
 "Tischquiz! Es gibt also immer ein Gelegenheit, zu sehen, wie weit Johns "
 "Wissen über Traktoren reicht!"
 
-#: .\websiteproj\templates\index.html:94
+#: .\websiteproj\templates\index.html:93
 msgid "So Many Societies!"
 msgstr "So viele Gesellschaften!"
 
-#: .\websiteproj\templates\index.html:95
+#: .\websiteproj\templates\index.html:94
 msgid ""
 "Badminton, Karate, Coding, Producing, Eating, Wine-tasting! And that's just"
 msgstr ""
 "Badminton, Karate, Coding, Producing, Eating, Wine-tasting! And that's just"
 
-#: .\websiteproj\templates\index.html:96
+#: .\websiteproj\templates\index.html:95
 msgid ""
 "naming a few! Here at TUD, we have over 100 societies! That's right! You "
 "read that correctly!"
@@ -724,21 +971,21 @@ msgstr ""
 "um nur einige zu nennen! Hier an der TUD haben wir über 100 Gesellschaften! "
 "Das ist richtig! Sie lesen das richtig!"
 
-#: .\websiteproj\templates\index.html:97
+#: .\websiteproj\templates\index.html:96
 msgid "ONE HUNDRED societies! So there's guaranteed to be one for you!"
 msgstr "EINE HUNDERT GESELLSCHAFTEN! Es gibt also garantiert eine für Sie!"
 
-#: .\websiteproj\templates\index.html:98
+#: .\websiteproj\templates\index.html:97
 msgid "Click below to learn more about our incredible societies!"
 msgstr ""
 "Klicken Sie unten, um mehr über unsere unglaublichen Gesellschaften zu "
 "erfahren!"
 
-#: .\websiteproj\templates\index.html:103
+#: .\websiteproj\templates\index.html:102
 msgid "Gallery"
 msgstr "Galerie"
 
-#: .\websiteproj\templates\index.html:104
+#: .\websiteproj\templates\index.html:103
 msgid ""
 "Take a look at the photos our photographer captured at some of our most "
 "popular events and societies!"
