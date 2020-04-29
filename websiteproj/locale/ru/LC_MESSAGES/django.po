@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 21:55+0100\n"
-"PO-Revision-Date: 2020-04-28 15:02+0100\n"
+"POT-Creation-Date: 2020-04-29 01:10+0100\n"
+"PO-Revision-Date: 2020-04-29 01:13+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -36,14 +36,18 @@ msgstr "Немецкий"
 msgid "Russian"
 msgstr "Русский"
 
+#: .\websiteproj\templates\Events.html:37
 #: .\websiteproj\templates\HowToMake.html:37
-#: .\websiteproj\templates\HowToMake.html:75
-#: .\websiteproj\templates\Join.html:47
+#: .\websiteproj\templates\Join.html:41
 #: .\websiteproj\templates\Overview.html:37
-#: .\websiteproj\templates\index.html:43 .\websiteproj\templates\index.html:98
-msgid "Societies"
-msgstr "Общества"
+#: .\websiteproj\templates\index.html:37
+#, fuzzy
+#| msgid "Events And Societies"
+msgid "Events & Societies"
+msgstr "События и общества"
 
+#: .\websiteproj\templates\Events.html:41
+#: .\websiteproj\templates\Events.html:60
 #: .\websiteproj\templates\HowToMake.html:41
 #: .\websiteproj\templates\HowToMake.html:60
 #: .\websiteproj\templates\Join.html:45
@@ -53,19 +57,26 @@ msgstr "Общества"
 msgid "Home"
 msgstr "Главная"
 
+#: .\websiteproj\templates\Events.html:43
 #: .\websiteproj\templates\HowToMake.html:43
+#: .\websiteproj\templates\HowToMake.html:75
+#: .\websiteproj\templates\Join.html:47
 #: .\websiteproj\templates\Overview.html:43
-#: .\websiteproj\templates\Overview.html:61
-msgid "Overview"
-msgstr "Обзор"
+#: .\websiteproj\templates\index.html:43 .\websiteproj\templates\index.html:97
+msgid "Societies"
+msgstr "Общества"
 
+#: .\websiteproj\templates\Events.html:45
+#: .\websiteproj\templates\Events.html:61
+#: .\websiteproj\templates\Events.html:64
 #: .\websiteproj\templates\HowToMake.html:45
 #: .\websiteproj\templates\Join.html:49
 #: .\websiteproj\templates\Overview.html:45
-#: .\websiteproj\templates\index.html:45 .\websiteproj\templates\index.html:70
+#: .\websiteproj\templates\index.html:45 .\websiteproj\templates\index.html:69
 msgid "Events"
 msgstr "События"
 
+#: .\websiteproj\templates\Events.html:47
 #: .\websiteproj\templates\HowToMake.html:47
 #: .\websiteproj\templates\Join.html:51
 #: .\websiteproj\templates\Overview.html:47
@@ -73,6 +84,7 @@ msgstr "События"
 msgid "Join a Society"
 msgstr "Присоединиться к обществу"
 
+#: .\websiteproj\templates\Events.html:49
 #: .\websiteproj\templates\HowToMake.html:49
 #: .\websiteproj\templates\HowToMake.html:64
 #: .\websiteproj\templates\Join.html:53
@@ -80,6 +92,321 @@ msgstr "Присоединиться к обществу"
 #: .\websiteproj\templates\index.html:49
 msgid "Create Society"
 msgstr "Создать общество"
+
+#: .\websiteproj\templates\Events.html:65
+msgid ""
+"Whether you're looking for a night out with your friends, a day of "
+"volunteering with your classmates, or some bonding time with your new fellow "
+"students, there is an event for everyone! Our wide array of events, gives "
+"any, and every student an opportunity to find something that suits them!"
+msgstr ""
+"Если вы ищете ночь с друзьями, день добровольчества с одноклассниками, или "
+"некоторые связи время с вашими новыми студентами, есть событие для всех! Наш "
+"широкий спектр событий, дает любому, и каждый студент возможность найти то, "
+"что им подходит!"
+
+#: .\websiteproj\templates\Events.html:71
+#: .\websiteproj\templates\Events.html:107
+#, fuzzy
+#| msgid ""
+#| "Here at TUD, we're very, very passionate about safe sex! We want to make "
+#| "sure that at every turn, our students don't experience any scratches or "
+#| "burns!"
+msgid ""
+"Here at TUD, we're very, very passionate about safe sex! We want to make "
+"sure that at every turn, our students don't experience any scratches or "
+"burns! This year, TUD Kevin Street is hosting the annual Shag Sexual "
+"Awareness event for the 3rd year running! A sure place to be for young "
+"lovebirds!"
+msgstr ""
+"Здесь, в TUD, мы очень, очень увлечены безопасным сексом! Мы хотим сделать "
+"уверен, что на каждом шагу наши студенты не испытывают никаких царапин или "
+"ожоги!"
+
+#: .\websiteproj\templates\Events.html:71
+#: .\websiteproj\templates\Events.html:75
+#: .\websiteproj\templates\Events.html:87
+#: .\websiteproj\templates\Events.html:91
+#: .\websiteproj\templates\Events.html:95
+msgid "Details →"
+msgstr "Подробности →"
+
+#: .\websiteproj\templates\Events.html:75
+#: .\websiteproj\templates\Events.html:118
+#: .\websiteproj\templates\index.html:82
+msgid ""
+"What some might describe to be the most over-gassed event in all of history, "
+"TUD is a strong advocate for Bingo Loco! It's incredibly repetitive play-"
+"style, awful song choices, and miserable outcomes will leave any event-goer "
+"in a mood of immense disapointment and regret! Unless you win! Which you "
+"won't."
+msgstr ""
+"То, что некоторые могут охарактеризовать как самое завышенное событие за всю "
+"историю, TUD - сильный защитник Бинго Локо! Это невероятно повторяющаяся "
+"игра...стиль, ужасный выбор песен и жалкие результаты оставят любого "
+"зрителя. в настроении огромного разочарования и сожаления! Если только ты не "
+"выиграешь! Который ты не будет."
+
+#: .\websiteproj\templates\Events.html:79
+#: .\websiteproj\templates\Events.html:129
+#, fuzzy
+#| msgid ""
+#| "There's no better way to connect with your new classmates than over an "
+#| "activity that showcases just how unintelligent they are! Here at TUD, we "
+#| "host a table quiz every month, at every campus! So there's always an "
+#| "opportunity to see just how far John's knowledge of tractors expands!"
+msgid ""
+"There's no better way to connect with your new classmates than over an "
+"activity that showcases just how unintelligent they are! Here at TUD, we "
+"host a table quiz every month, at every campus! So there's always an "
+"opportunity to see just how far Angel's knowledge of curry expands!"
+msgstr ""
+"Нет лучшего способа связаться с твоими новыми одноклассниками, чем через "
+"деятельность, которая показывает, насколько они неразумны! Здесь, в TUD, мы "
+"Проводить викторину каждый месяц, в каждом кампусе! Так что всегда есть "
+"возможность увидеть, как далеко расширяются знания Джона о тракторах!"
+
+#: .\websiteproj\templates\Events.html:87
+#: .\websiteproj\templates\Events.html:140
+msgid ""
+"The 80s theme'd disco is here. This exclusive event is only held once every "
+"two years. This year marks the 10th time the event is being hosted. It is "
+"truely a great experience. Wouldn't you be interested in knowing how hard "
+"your parents partied when they were as young and energetic as yourselves?"
+msgstr ""
+"Диско-тема 80-х здесь. Это эксклюзивное мероприятие проводится только раз в "
+"два года. В этом году исполняется 10 раз, когда мероприятие проводится. Это "
+"действительно отличный опыт. Разве тебе не интересно узнать, как тяжело твои "
+"родители развлекались, когда они были такими же молодыми и энергичными, как "
+"и ты?"
+
+#: .\websiteproj\templates\Events.html:91
+#: .\websiteproj\templates\Events.html:151
+msgid ""
+"This years Summer Ball is being brought to you by the collaboration between "
+"the Photography & Events society! The ball will is exclusively being held "
+"for the most exquisite people on Ireland (that attend college). The ball "
+"will be held in  the beautiful ball room in Aungier Street. Are you ready "
+"for such a prestige evening?"
+msgstr ""
+"В этом году Летний бал приглашает Вас к сотрудничеству общества фотографии и "
+"событий! Бал будет проводиться исключительно для самых изысканных людей в "
+"Ирландии (которые посещают колледж). Мяч будет проходить в красивой бальной "
+"комнате на улице Онжера. Вы готовы к такому престижному вечеру?"
+
+#: .\websiteproj\templates\Events.html:95
+#: .\websiteproj\templates\Events.html:161
+msgid ""
+"Have you ever wanted to invest but never knew how to get into it? Well this "
+"event that is being hosted by the Investors society is perfect for you. The "
+"event is being hosted as the investors society sees potential in the TUD "
+"college students in becoming successful investors in the future."
+msgstr ""
+"Вы когда-нибудь хотели инвестировать, но никогда не знали, как попасть в "
+"это? Что ж, это мероприятие, проводимое обществом инвесторов, идеально "
+"подходит для вас. Мероприятие проводится, поскольку общество инвесторов "
+"видит в студентах колледжа TUD потенциал стать успешными инвесторами в "
+"будущем."
+
+#: .\websiteproj\templates\Events.html:109
+#: .\websiteproj\templates\Events.html:120
+#: .\websiteproj\templates\Events.html:131
+#: .\websiteproj\templates\Events.html:142
+#: .\websiteproj\templates\Events.html:152
+msgid "Hosted By:"
+msgstr "Хостинг:"
+
+#: .\websiteproj\templates\Events.html:110
+#: .\websiteproj\templates\Events.html:121
+#: .\websiteproj\templates\Events.html:132
+#: .\websiteproj\templates\Events.html:143
+#: .\websiteproj\templates\Events.html:153
+msgid "Contact:"
+msgstr "Контакт"
+
+#: .\websiteproj\templates\Events.html:112
+msgid ""
+"Anybody & Everybody is welcome to this event. No sign-ups. No Fees. No "
+"Registration. The Health Society is here to help those that are well versed "
+"in the topic of sex and for those who may not be well acquainted with it. "
+"There will be important information to learn for everyone. This is an event "
+"that we highly recommend everyone attends. Refreshments will be given."
+msgstr ""
+"Любой и все приглашаются на это событие. Нет регистрации. Нет сборов. Нет "
+"регистрации. Общество здравоохранения здесь, чтобы помочь тем, кто хорошо "
+"разбирается в теме секса, и тем, кто, возможно, плохо знаком с ней. Там "
+"будет важная информация, чтобы узнать для всех. Это событие, которое мы "
+"настоятельно рекомендуем всем посетить. Будут предоставлены закуски."
+
+#: .\websiteproj\templates\Events.html:123
+msgid ""
+"The one and only Games Society has created the maddest craziest and most "
+"importantly the worst event you would ever attend. We invite everyone to "
+"come to this event and have a grand old misserable time here. There are "
+"prizes given out to those who manage to stay awake through this horrid "
+"event. Due to the lack of people, we ask for you to bring your parents, "
+"grandparents, kids, neighbours, basically everyone you know. We have hosted "
+"multiple of these events and we know we can make events that are memorable "
+"for everyone that attends!"
+msgstr ""
+"Единственное Игровое Общество создало самое безумное и самое главное "
+"безумное событие, которое вы когда-либо посещали. Мы приглашаем всех прийти "
+"на это событие и провести здесь великолепное старое время. Тем, кому удается "
+"не заснуть в течение этого ужасного события, вручаются призы. Из-за "
+"отсутствия людей мы просим вас привести своих родителей, бабушек и дедушек, "
+"детей, соседей, в основном всех, кого вы знаете. Мы провели несколько таких "
+"мероприятий, и мы знаем, что можем сделать мероприятия, которые будут "
+"запоминающимися для всех, кто посещает!"
+
+#: .\websiteproj\templates\Events.html:134
+msgid ""
+"The Quiz event that is comingon the 22nd June is going to be a blast! Forget "
+"about the Games Society. They don't understand real disapointment, and "
+"luckily for you, we do. There are literally no positives to this quiz. As "
+"previously stated we will show you how smart your mates are. The quiz "
+"consists of a few rounds with prizes at the end, we think. It will be nice "
+"of you to attend anyway. See you there!"
+msgstr ""
+"Мероприятие Викторина, которое состоится 22 июня, будет взрывом! Забудьте об "
+"Обществе Игр. Они не понимают настоящего разочарования, и, к счастью для "
+"вас, мы понимаем. Там нет буквально никаких плюсов в этой викторине. Как "
+"было сказано ранее, мы покажем, насколько умны ваши друзья. Мы думаем, что "
+"викторина состоит из нескольких раундов с призами в конце. В любом случае "
+"вам будет приятно присутствовать. Увидимся там!"
+
+#: .\websiteproj\templates\Events.html:139
+msgid "Kevin Street Campus"
+msgstr "Kevin Street Campus"
+
+#: .\websiteproj\templates\Events.html:145
+msgid ""
+"Everybody inside and outside of TUD is welcome to this great event! There "
+"are no hidden fees here, it is totally free to enter. All you need to do is "
+"sign-up using the eventbright link. To be allowed in you must be wearing 80s "
+"styled clothing. There will be a winner for the best outfit and the best "
+"dressed couple at this event! Good luck! If there is any other information "
+"that you may need, please feel free to contact us at our email or any of our "
+"socials!"
+msgstr ""
+"Приглашаем всех в TUD и за его пределами! Здесь нет скрытых платежей, вход "
+"бесплатный. Все, что вам нужно сделать, это зарегистрироваться, используя "
+"ссылку eventbright. Чтобы быть допущенным, вы должны носить одежду в стиле "
+"80-х годов. На этом мероприятии будет победитель в лучшем наряде и лучшая "
+"пара! Удачи! Если есть какая-либо другая информация, которая может вам "
+"понадобиться, пожалуйста, свяжитесь с нами по электронной почте или в любом "
+"из наших социальных сетей!"
+
+#: .\websiteproj\templates\Events.html:155
+msgid ""
+"There is a fee of $50 to get into this event. The fee covers up to 2 people "
+"so we hope it wont put the biggest dent into the wallets of the college "
+"students! At the event a 3 course meal will be provided. There will be a "
+"bar, but the drinks are not going to be free. If there is any other "
+"information that you seek, please feel free to contact us at our email or "
+"any of our socials!"
+msgstr ""
+"За участие в этом мероприятии взимается плата в размере 50 долларов. Плата "
+"покрывает до 2 человек, поэтому мы надеемся, что это не окажет наибольшего "
+"влияния на кошельки студентов! На мероприятии будет предоставлено питание из "
+"3 блюд. Там будет бар, но напитки не будут бесплатными. Если есть какая-либо "
+"другая информация, которую вы ищете, пожалуйста, не стесняйтесь связаться с "
+"нами по электронной почте или любой из наших социальных сетей!"
+
+#: .\websiteproj\templates\Events.html:165
+msgid ""
+"There is no fee and no sign-up to be able to attend the event. Just be a "
+"part of TUD. We can't be sharing our secrets. We will provide information on "
+"how to join the investing game from as little as 50 euro, how to stay in the "
+"game, and most importantly how to succeed. There will be pizza at the event! "
+"If there is any other information that you seek, please feel free to contact "
+"us at our email or any of our socials!"
+msgstr ""
+"Для участия в мероприятии нет платы и регистрации. Просто будьте частью TUD. "
+"Мы не можем делиться нашими секретами. Мы предоставим вам информацию о том, "
+"как присоединиться к инвестиционной игре всего за 50 евро, как оставаться в "
+"игре и, что наиболее важно, как добиться успеха. На мероприятии будет пицца! "
+"Если есть какая-либо другая информация, которую вы ищете, пожалуйста, не "
+"стесняйтесь связаться с нами по электронной почте или любой из наших "
+"социальных сетей!"
+
+#: .\websiteproj\templates\Events.html:174
+#: .\websiteproj\templates\HowToMake.html:130
+#: .\websiteproj\templates\Join.html:212 .\websiteproj\templates\index.html:118
+msgid "About Events And Societies"
+msgstr "О событиях и обществах"
+
+#: .\websiteproj\templates\Events.html:175
+#: .\websiteproj\templates\HowToMake.html:131
+#: .\websiteproj\templates\Join.html:213 .\websiteproj\templates\index.html:119
+msgid ""
+"Due to the amount of correctional activities occuring in the world during "
+"the time of this text being written, many events and societies have had to "
+"be postponed/terminated."
+msgstr ""
+"В связи с количеством исправительных мероприятий, происходящих в мире во "
+"время во время написания этого текста многим событиям и обществам "
+"приходилось будет отложено/окончено."
+
+#: .\websiteproj\templates\Events.html:176
+#: .\websiteproj\templates\HowToMake.html:132
+#: .\websiteproj\templates\Join.html:214 .\websiteproj\templates\index.html:120
+msgid ""
+"Not all events and societies are entirely factual. Viewer discretion is "
+"advised."
+msgstr ""
+"Не все события и общества являются полностью фактическими. Дискреционное "
+"усмотрение зрителя осведомлён."
+
+#: .\websiteproj\templates\Events.html:179
+#: .\websiteproj\templates\HowToMake.html:135
+#: .\websiteproj\templates\Join.html:217
+#: .\websiteproj\templates\Overview.html:101
+#: .\websiteproj\templates\index.html:123
+msgid "Our offices"
+msgstr "Наши офисы"
+
+#: .\websiteproj\templates\Events.html:192
+#: .\websiteproj\templates\Join.html:230
+msgid "Popular Societies"
+msgstr "Народные общества"
+
+#: .\websiteproj\templates\Events.html:194
+#: .\websiteproj\templates\Join.html:232
+msgid "Photography"
+msgstr "Фотография"
+
+#: .\websiteproj\templates\Events.html:195
+#: .\websiteproj\templates\Join.html:233
+msgid "Baking"
+msgstr "Выпечка"
+
+#: .\websiteproj\templates\Events.html:196
+#: .\websiteproj\templates\Join.html:234
+msgid "Banter"
+msgstr "Стеб"
+
+#: .\websiteproj\templates\Events.html:197
+#: .\websiteproj\templates\Join.html:235
+msgid "African"
+msgstr "Африканский"
+
+#: .\websiteproj\templates\Events.html:201
+#: .\websiteproj\templates\Join.html:239
+msgid "Run up our Socials!"
+msgstr "Запустите наши Socials!"
+
+#: .\websiteproj\templates\Events.html:210
+#: .\websiteproj\templates\HowToMake.html:161
+#: .\websiteproj\templates\Join.html:248 .\websiteproj\templates\index.html:149
+msgid "News and Updates"
+msgstr "Новости и обновления"
+
+#: .\websiteproj\templates\Events.html:211
+#: .\websiteproj\templates\Join.html:249
+msgid "Sign up to get weekly updates on events and societies."
+msgstr ""
+"Зарегистрируйтесь, чтобы получать еженедельные обновления о событиях и "
+"обществах."
 
 #: .\websiteproj\templates\HowToMake.html:61
 #, fuzzy
@@ -198,75 +525,38 @@ msgstr ""
 msgid "and fill it out then return to the Societies Office in Aungier Street."
 msgstr ""
 
-#: .\websiteproj\templates\HowToMake.html:130
-#: .\websiteproj\templates\Join.html:212 .\websiteproj\templates\index.html:119
-msgid "About Events And Societies"
-msgstr "О событиях и обществах"
-
-#: .\websiteproj\templates\HowToMake.html:131
-#: .\websiteproj\templates\Join.html:213 .\websiteproj\templates\index.html:120
-msgid ""
-"Due to the amount of correctional activities occuring in the world during "
-"the time of this text being written, many events and societies have had to "
-"be postponed/terminated."
-msgstr ""
-"В связи с количеством исправительных мероприятий, происходящих в мире во "
-"время во время написания этого текста многим событиям и обществам "
-"приходилось будет отложено/окончено."
-
-#: .\websiteproj\templates\HowToMake.html:132
-#: .\websiteproj\templates\Join.html:214 .\websiteproj\templates\index.html:121
-msgid ""
-"Not all events and societies are entirely factual. Viewer discretion is "
-"advised."
-msgstr ""
-"Не все события и общества являются полностью фактическими. Дискреционное "
-"усмотрение зрителя осведомлён."
-
-#: .\websiteproj\templates\HowToMake.html:135
-#: .\websiteproj\templates\Join.html:217
-#: .\websiteproj\templates\Overview.html:101
-#: .\websiteproj\templates\index.html:124
-msgid "Our offices"
-msgstr "Наши офисы"
-
 #: .\websiteproj\templates\HowToMake.html:144
-#: .\websiteproj\templates\index.html:133
+#: .\websiteproj\templates\index.html:132
 msgid "More About TUD"
 msgstr "Подробнее о TUD"
 
 #: .\websiteproj\templates\HowToMake.html:146
-#: .\websiteproj\templates\index.html:135
+#: .\websiteproj\templates\index.html:134
 msgid "Explore"
 msgstr "Ознакомиться с сайтом"
 
 #: .\websiteproj\templates\HowToMake.html:147
-#: .\websiteproj\templates\index.html:136
+#: .\websiteproj\templates\index.html:135
 msgid "Open Days"
 msgstr "Дни открытых дверей"
 
 #: .\websiteproj\templates\HowToMake.html:148
-#: .\websiteproj\templates\index.html:137
+#: .\websiteproj\templates\index.html:136
 msgid "Visit Us"
 msgstr "Посетите нас"
 
 #: .\websiteproj\templates\HowToMake.html:149
-#: .\websiteproj\templates\index.html:138
+#: .\websiteproj\templates\index.html:137
 msgid "Accounting"
 msgstr "Бухгалтерия"
 
 #: .\websiteproj\templates\HowToMake.html:153
-#: .\websiteproj\templates\index.html:142
+#: .\websiteproj\templates\index.html:141
 msgid "Run Up Our Socials!"
 msgstr "Запустите наши соцслужбы!"
 
-#: .\websiteproj\templates\HowToMake.html:161
-#: .\websiteproj\templates\Join.html:248 .\websiteproj\templates\index.html:150
-msgid "News and Updates"
-msgstr "Новости и обновления"
-
 #: .\websiteproj\templates\HowToMake.html:162
-#: .\websiteproj\templates\index.html:151
+#: .\websiteproj\templates\index.html:150
 msgid "Sign up to get weekly updates on events and societies!"
 msgstr ""
 "Зарегистрируйтесь, чтобы получать еженедельные новости о событиях и "
@@ -274,7 +564,7 @@ msgstr ""
 
 #: .\websiteproj\templates\Join.html:68
 msgid "Contact"
-msgstr "контакт"
+msgstr "Контакт"
 
 #: .\websiteproj\templates\Join.html:69
 msgid ""
@@ -460,35 +750,9 @@ msgstr "Сообщение"
 msgid "Send message"
 msgstr "Отправить сообщение"
 
-#: .\websiteproj\templates\Join.html:230
-msgid "Popular Societies"
-msgstr "Народные общества"
-
-#: .\websiteproj\templates\Join.html:232
-msgid "Photography"
-msgstr "фотография"
-
-#: .\websiteproj\templates\Join.html:233
-msgid "Baking"
-msgstr "Выпечка"
-
-#: .\websiteproj\templates\Join.html:234
-msgid "Banter"
-msgstr "подшучивать"
-
-#: .\websiteproj\templates\Join.html:235
-msgid "African"
-msgstr "африканец"
-
-#: .\websiteproj\templates\Join.html:239
-msgid "Run up our Socials!"
-msgstr "Запустите наши Socials!"
-
-#: .\websiteproj\templates\Join.html:249
-msgid "Sign up to get weekly updates on events and societies."
-msgstr ""
-"Зарегистрируйтесь, чтобы получать еженедельные обновления о событиях и "
-"обществах."
+#: .\websiteproj\templates\Overview.html:61
+msgid "Overview"
+msgstr "Обзор"
 
 #: .\websiteproj\templates\Overview.html:64
 msgid "Overview of Societies"
@@ -597,23 +861,23 @@ msgstr "Глава общества"
 msgid "Follow us on:"
 msgstr "Подпишитесь на нас в:"
 
-#: .\websiteproj\templates\index.html:60
+#: .\websiteproj\templates\index.html:59
 msgid "Events And Societies"
 msgstr "События и общества"
 
-#: .\websiteproj\templates\index.html:61
+#: .\websiteproj\templates\index.html:60
 msgid "Looking for fun, as much as can be?"
 msgstr "Ищешь веселья, как можно больше?"
 
-#: .\websiteproj\templates\index.html:61
+#: .\websiteproj\templates\index.html:60
 msgid "Find it and more, at TUD!"
 msgstr "Найди его и еще что-нибудь, в TUD!"
 
-#: .\websiteproj\templates\index.html:66
+#: .\websiteproj\templates\index.html:65
 msgid "An Event For Everyone!"
 msgstr "Событие для всех!"
 
-#: .\websiteproj\templates\index.html:67
+#: .\websiteproj\templates\index.html:66
 msgid ""
 "Whether you're looking for a night out with your friends, a day of "
 "volunteering with your classmates,"
@@ -621,7 +885,7 @@ msgstr ""
 "Ищешь ли ты ночь с друзьями, день, когда волонтёрство с твоими "
 "одноклассниками,"
 
-#: .\websiteproj\templates\index.html:68
+#: .\websiteproj\templates\index.html:67
 msgid ""
 "or some bonding time with your new fellow students, there is an event for "
 "everyone! Our wide array of events, gives any, and every student"
@@ -629,15 +893,15 @@ msgstr ""
 "или какое-нибудь сближение с вашими новыми сокурсниками, есть событие для "
 "все! Наш широкий спектр мероприятий, дает любой, и каждый студент"
 
-#: .\websiteproj\templates\index.html:69
+#: .\websiteproj\templates\index.html:68
 msgid "an opportunity to find something that suits them!"
 msgstr "возможность найти то, что им подходит!"
 
-#: .\websiteproj\templates\index.html:70
+#: .\websiteproj\templates\index.html:69
 msgid "Click below to learn more about our numerous events!"
 msgstr "Нажмите ниже, чтобы узнать больше о наших многочисленных мероприятиях!"
 
-#: .\websiteproj\templates\index.html:79
+#: .\websiteproj\templates\index.html:78
 msgid ""
 "Here at TUD, we're very, very passionate about safe sex! We want to make "
 "sure that at every turn, our students don't experience any scratches or "
@@ -647,38 +911,24 @@ msgstr ""
 "уверен, что на каждом шагу наши студенты не испытывают никаких царапин или "
 "ожоги!"
 
-#: .\websiteproj\templates\index.html:79
+#: .\websiteproj\templates\index.html:78
 msgid "This year, TUD Kevin Street is hosting the annual"
-msgstr "В этом году на улице ТУД Кевина состоится ежегодная конференция."
+msgstr "В этом году TUD Кевин-стрит проводит ежегодный"
 
-#: .\websiteproj\templates\index.html:79
+#: .\websiteproj\templates\index.html:78
 msgid "event for the 3rd year running! A sure place to be for young lovebirds!"
 msgstr "мероприятие уже третий год подряд! Конечное место для юных влюбленных!"
 
-#: .\websiteproj\templates\index.html:79 .\websiteproj\templates\index.html:83
-#: .\websiteproj\templates\index.html:87
+#: .\websiteproj\templates\index.html:78 .\websiteproj\templates\index.html:82
+#: .\websiteproj\templates\index.html:86
 msgid "Continue reading"
 msgstr "Продолжить чтение"
 
-#: .\websiteproj\templates\index.html:83
-msgid ""
-"What some might describe to be the most over-gassed event in all of history, "
-"TUD is a strong advocate for Bingo Loco! It's incredibly repetitive play-"
-"style, awful song choices, and miserable outcomes will leave any event-goer "
-"in a mood of immense disapointment and regret! Unless you win! Which you "
-"won't."
-msgstr ""
-"То, что некоторые могут охарактеризовать как самое завышенное событие за всю "
-"историю, TUD - сильный защитник Бинго Локо! Это невероятно повторяющаяся "
-"игра...стиль, ужасный выбор песен и жалкие результаты оставят любого "
-"зрителя. в настроении огромного разочарования и сожаления! Если только ты не "
-"выиграешь! Который ты не будет."
-
-#: .\websiteproj\templates\index.html:86
+#: .\websiteproj\templates\index.html:85
 msgid "Table Quiz"
 msgstr "Настольная викторина"
 
-#: .\websiteproj\templates\index.html:87
+#: .\websiteproj\templates\index.html:86
 msgid ""
 "There's no better way to connect with your new classmates than over an "
 "activity that showcases just how unintelligent they are! Here at TUD, we "
@@ -690,18 +940,18 @@ msgstr ""
 "Проводить викторину каждый месяц, в каждом кампусе! Так что всегда есть "
 "возможность увидеть, как далеко расширяются знания Джона о тракторах!"
 
-#: .\websiteproj\templates\index.html:94
+#: .\websiteproj\templates\index.html:93
 msgid "So Many Societies!"
 msgstr "Так много обществ!"
 
-#: .\websiteproj\templates\index.html:95
+#: .\websiteproj\templates\index.html:94
 msgid ""
 "Badminton, Karate, Coding, Producing, Eating, Wine-tasting! And that's just"
 msgstr ""
 "Бадминтон, каратэ, кодирование, производство, еда, дегустация вин! И это "
 "просто"
 
-#: .\websiteproj\templates\index.html:96
+#: .\websiteproj\templates\index.html:95
 msgid ""
 "naming a few! Here at TUD, we have over 100 societies! That's right! You "
 "read that correctly!"
@@ -709,19 +959,19 @@ msgstr ""
 "назвать несколько! Здесь, в ТУД, у нас более 100 обществ! Точно! Вы "
 "правильно понял!"
 
-#: .\websiteproj\templates\index.html:97
+#: .\websiteproj\templates\index.html:96
 msgid "ONE HUNDRED societies! So there's guaranteed to be one for you!"
 msgstr "Одно СТОЛОВОЕ общество! Так что для тебя гарантированно будет одно!"
 
-#: .\websiteproj\templates\index.html:98
+#: .\websiteproj\templates\index.html:97
 msgid "Click below to learn more about our incredible societies!"
 msgstr "Нажмите ниже, чтобы узнать больше о наших невероятных обществах!"
 
-#: .\websiteproj\templates\index.html:103
+#: .\websiteproj\templates\index.html:102
 msgid "Gallery"
 msgstr "Галерея"
 
-#: .\websiteproj\templates\index.html:104
+#: .\websiteproj\templates\index.html:103
 msgid ""
 "Take a look at the photos our photographer captured at some of our most "
 "popular events and societies!"
