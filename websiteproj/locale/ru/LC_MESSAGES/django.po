@@ -278,16 +278,16 @@ msgid "At least five members. Name and Student Number"
 msgstr "По крайней мере, пять членов. Имя и номер студента"
 
 #: .\websiteproj\templates\HowToMake.html:87
-msgid "'I noticed there was no society for bird watchers, so I saw my oppurtunity and used this easy set up. Never been happier in my life.'"
-msgstr "'Я заметил, что не было общества для наблюдателей за птицами, поэтому я увидел свою возможность и использовал эту простую установку. Никогда не был счастливее в моей жизни.'"
+msgid "'I noticed there was no society for bird watchers, so I saw my oppurtunity and used this easy set up. Never been happier in my life.' - John"
+msgstr "'Я заметил, что не было общества для наблюдателей за птицами, поэтому я увидел свою возможность и использовал эту простую установку. Никогда не был счастливее в моей жизни.' - Jurg"
 
 #: .\websiteproj\templates\HowToMake.html:88
-msgid "'We always felt even though we are humans we relate more to animals. So we wanted a society where that could be expressed and no longer be judged. This gave us that oppurtunity.'"
-msgstr "'Мы всегда чувствовали, что хотя мы люди, мы больше относимся к животным. Таким образом, мы хотели общество, где это можно было бы выразить и больше не судить. Это дало нам эту возможность.'"
+msgid "'We always felt even though we are humans we relate more to animals. So we wanted a society where that could be expressed and no longer be judged. This gave us that oppurtunity.' - Sarah and Nigel"
+msgstr "'Мы всегда чувствовали, что хотя мы люди, мы больше относимся к животным. Таким образом, мы хотели общество, где это можно было бы выразить и больше не судить. Это дало нам эту возможность.' - Sasha and Nazar"
 
 #: .\websiteproj\templates\HowToMake.html:89
-msgid "'Doing the same exercises was so boring so I needed a new way to excite me. I chose do seek no way of doing things but first I needed a crew. This allowed me to form a crew. I'm forever grateful and never bored'"
-msgstr "'Выполнять одни и те же упражнения было так скучно, что мне нужен был новый способ возбудить меня. Я решил не искать способ делать вещи, но сначала мне нужна была команда. Это позволило мне сформировать команду. Я всегда благодарен и никогда не скучаю'"
+msgid "'Doing the same exercises was so boring so I needed a new way to excite me. I chose do seek no way of doing things but first I needed a crew. This allowed me to form a crew. I'm forever grateful and never bored' - Harry"
+msgstr "'Выполнять одни и те же упражнения было так скучно, что мне нужен был новый способ возбудить меня. Я решил не искать способ делать вещи, но сначала мне нужна была команда. Это позволило мне сформировать команду. Я всегда благодарен и никогда не скучаю' - Hajek"
 
 #: .\websiteproj\templates\HowToMake.html:91
 msgid "Application Form"
