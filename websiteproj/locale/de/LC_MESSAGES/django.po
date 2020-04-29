@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-29 01:10+0100\n"
-"PO-Revision-Date: 2020-04-29 01:15+0100\n"
+"PO-Revision-Date: 2020-04-29 12:37+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -92,10 +92,6 @@ msgid "Create Society"
 msgstr "Gesellschaft schaffen"
 
 #: .\websiteproj\templates\Events.html:65
-#, fuzzy
-#| msgid ""
-#| "or some bonding time with your new fellow students, there is an event for "
-#| "everyone! Our wide array of events, gives any, and every student"
 msgid ""
 "Whether you're looking for a night out with your friends, a day of "
 "volunteering with your classmates, or some bonding time with your new fellow "
@@ -104,15 +100,10 @@ msgid ""
 msgstr ""
 "oder eine Zeit der Begegnung mit Ihren neuen Kommilitonen, gibt es eine "
 "Veranstaltung für alle! Unser breites Angebot an Veranstaltungen gibt jedem "
-"Studenten und jeder Studentin"
+"Studenten und jeder Studentin!"
 
 #: .\websiteproj\templates\Events.html:71
 #: .\websiteproj\templates\Events.html:107
-#, fuzzy
-#| msgid ""
-#| "Here at TUD, we're very, very passionate about safe sex! We want to make "
-#| "sure that at every turn, our students don't experience any scratches or "
-#| "burns!"
 msgid ""
 "Here at TUD, we're very, very passionate about safe sex! We want to make "
 "sure that at every turn, our students don't experience any scratches or "
@@ -120,9 +111,11 @@ msgid ""
 "Awareness event for the 3rd year running! A sure place to be for young "
 "lovebirds!"
 msgstr ""
-"Hier an der TUD setzen wir uns sehr, sehr leidenschaftlich für sicheren Sex "
-"ein! Wir wollen sicher, dass unsere Schülerinnen und Schüler auf Schritt und "
-"Tritt keine Kratzer oder burns!"
+"Hier bei TUD sind wir sehr, sehr leidenschaftlich für sicheren Sex! Wir "
+"wollen sicherstellen, dass unsere Schüler an jeder Ecke keine Kratzer oder "
+"Verbrennungen erleben! In diesem Jahr veranstaltet TUD Kevin Street zum "
+"dritten Mal in Folge das jährliche Shag Sexual Awareness Event! Ein sicherer "
+"Ort für junge Liebesvögel!"
 
 #: .\websiteproj\templates\Events.html:71
 #: .\websiteproj\templates\Events.html:75
@@ -151,23 +144,17 @@ msgstr ""
 
 #: .\websiteproj\templates\Events.html:79
 #: .\websiteproj\templates\Events.html:129
-#, fuzzy
-#| msgid ""
-#| "There's no better way to connect with your new classmates than over an "
-#| "activity that showcases just how unintelligent they are! Here at TUD, we "
-#| "host a table quiz every month, at every campus! So there's always an "
-#| "opportunity to see just how far John's knowledge of tractors expands!"
 msgid ""
 "There's no better way to connect with your new classmates than over an "
 "activity that showcases just how unintelligent they are! Here at TUD, we "
 "host a table quiz every month, at every campus! So there's always an "
 "opportunity to see just how far Angel's knowledge of curry expands!"
 msgstr ""
-"Es gibt keine bessere Möglichkeit, mit Ihren neuen Klassenkameraden in "
-"Kontakt zu treten, als über eine Aktivität, die zeigt, wie unintelligent sie "
-"sind! Hier an der TUD, wir veranstalten Sie jeden Monat auf jedem Campus ein "
-"Tischquiz! Es gibt also immer ein Gelegenheit, zu sehen, wie weit Johns "
-"Wissen über Traktoren reicht!"
+"Es gibt keinen besseren Weg, sich mit deinen neuen Klassenkameraden zu "
+"verbinden, als über eine Aktivität, die zeigt, wie unintelligent sie sind! "
+"Hier bei TUD veranstalten wir jeden Monat ein Tischquiz auf jedem Campus! Es "
+"gibt also immer die Möglichkeit zu sehen, wie weit Angels Wissen über Curry "
+"reicht!"
 
 #: .\websiteproj\templates\Events.html:87
 #: .\websiteproj\templates\Events.html:140
